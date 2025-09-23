@@ -8,7 +8,8 @@ public class Player1 : MonoBehaviour
 {
     public Image BarraDeVida;
     public Image BarraEnergia;
-    public GameObject Shoot;
+    public Animator Pantalla;
+    public GameObject ShootObj;
     public float VidaJ1;
     public float EnergiaJ1;
     public bool Move = true;
@@ -17,18 +18,22 @@ public class Player1 : MonoBehaviour
     public float SuperTime;
     public float UltiShootTime;
     public float UltiTime;
+    public bool Ulti;
     public Vector3 StartPositionBullet;
+    public string UltiName;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         Animator = GetComponent<Animator>();
-        StartPositionBullet = Shoot.transform.position;
-        GameObject obj = GameObject.Find("BarraDeVida");
+        StartPositionBullet = ShootObj.transform.position;
+        GameObject obj = GameObject.Find("BarraDeVidaJ1");
         BarraDeVida = obj.GetComponent<Image>();
-        GameObject obj2 = GameObject.Find("BarraDeEnergia");
+        GameObject obj2 = GameObject.Find("BarraDeEnergiaJ2");
         BarraEnergia = obj2.GetComponent<Image>();
+        GameObject obj3 = GameObject.Find("Pantalla");
+        Pantalla = obj3.GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -69,9 +74,16 @@ public class Player1 : MonoBehaviour
         if (Input.GetKey("t") && Move == true && EnergiaJ1 >= 35)
         {
             Animator.SetBool("Shoot", true);
-            Shoot.SetActive(true);
-            Shoot.transform.position = new Vector3(Shoot.transform.position.x + 0.3f, Shoot.transform.position.y, Shoot.transform.position.z);
-
+            Move = false;
+            ShootObj.SetActive(true);
+            ShootObj.transform.position = new Vector3(ShootObj.transform.position.x + 0.3f, ShootObj.transform.position.y, ShootObj.transform.position.z);
+            Invoke("Shoot", 1.5f);
+        }
+        if (Ulti == true)
+        {
+            Move = false;
+            Pantalla.SetBool(UltiName, true);
+            Invoke("Ultimate", UltiTime);
         }
     }
     void Attack()
@@ -86,6 +98,19 @@ public class Player1 : MonoBehaviour
     }
     void Shoot()
     {
-        
+        if (Ulti == false)
+        {
+            Animator.SetBool("Shoot", false);
+            ShootObj.SetActive(false);
+            Move = true;
+            ShootObj.transform.position = StartPositionBullet;
+        }
+        else{}
+    }
+    void Ultimate()
+    {
+        Ulti = false;
+        Move = true;
+        Pantalla.SetBool(UltiName, false);
     }
 }

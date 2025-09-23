@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Reflection;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DamageJ1 : MonoBehaviour
 {
@@ -10,21 +11,29 @@ public class DamageJ1 : MonoBehaviour
     public float KnockBackDamage;
     public bool KnockBack;
     public float knockbackForce = 8;
-    public GameObject Player2;
-    public GameObject Player1;
+    public GameObject P2;
+    public GameObject P1;
+    public GameObject BF;
+    public Image BFU;
+    private GameObject obj2;
     public bool Shoot;
-
-    // StartGis called before the first frame update
+    private Player1 Player1;
+    private Player2 Player2;
     void Start()
     {
-        Player2 = GameObject.Find("Player2");
-        Player1 = GameObject.Find("Player1");
+        P2 = GameObject.Find("Player2");
+        P1 = GameObject.Find("Player1");
+        Player1 = P1.GetComponent<Player1>();
+        Player2 = P2.GetComponent<Player2>();
+        BF = GameObject.Find("BF");
+        obj2 = GameObject.Find("BFU");
+        BFU = obj2.GetComponent<Image>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -32,28 +41,58 @@ public class DamageJ1 : MonoBehaviour
         {
             if (KnockBack == false)
             {
-                Player2.Player2.VidaJ2 -= NormalDamage;
+                Player2.VidaJ2 -= NormalDamage;
                 Player1.EnergiaJ1 += NormalDamage;
                 Player2.Move = false;
             }
             if (KnockBack == true)
             {
-                Player2.VidaJ2 -= KnockBackDamage;
-                Player1.EnergiaJ1 += KnockBackDamage;
-                Player2.Move = false;
-                Rigidbody2D rb = other.GetComponent<Rigidbody2D>();
-                if (rb != null)
+                if (Input.GetKey("l") && Player2.EnergiaJ2 >= 10)
                 {
-                    Vector2 knockbackDirection = new Vector2(1, 1).normalized;
-                    rb.linearVelocity = Vector2.zero;
-                    rb.AddForce(knockbackDirection * knockbackForce, ForceMode2D.Impulse);
+                    Player1.VidaJ1 -= 10;
+                    Player2.EnergiaJ2 -= 10;
+                    BF.transform.position = gameObject.transform.position;
+                    BF.SetActive(true);
+                    BFU.gameObject.SetActive(true);
+                    Invoke("BlackFlash", 1f);
                 }
-                if (Shoot == true)
+                else
                 {
-
+                    Player2.VidaJ2 -= KnockBackDamage;
+                    Player1.EnergiaJ1 += KnockBackDamage;
+                    Player2.Move = false;
+                    Rigidbody2D rb = other.GetComponent<Rigidbody2D>();
+                    if (rb != null)
+                    {
+                        Vector2 knockbackDirection = new Vector2(1, 1).normalized;
+                        rb.linearVelocity = Vector2.zero;
+                        rb.AddForce(knockbackDirection * knockbackForce, ForceMode2D.Impulse);
+                    }
+                }
+                if (Shoot == true && Input.GetKey("l") && Player2.EnergiaJ2 >= 10)
+                {
+                    Player2.EnergiaJ2 -= 10;
+                    BF.transform.position = gameObject.transform.position;
+                    BF.SetActive(true);
+                    BFU.gameObject.SetActive(true);
+                    Invoke("BlackFlash", 1f);
+                }
+                else
+                {
+                    Player1.Ulti = true;
+                    Player2.Move = false;
+                    Invoke("NoMoveUlti", Player1.UltiTime);
                 }
             }
         }
-        
+    }
+    void BlackFlash()
+    {
+        BF.SetActive(false);
+        BFU.gameObject.SetActive(false);
+    }
+    void NoMoveUlti()
+    {
+        Player2.Move = true;
     }
 }

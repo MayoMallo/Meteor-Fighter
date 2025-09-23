@@ -43,8 +43,8 @@ public class RoundManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        J1 = GameObject.Find ("Jugador1");
-        J2 = GameObject.Find ("Jugador2");
+        J1 = GameObject.FindWithTag("Player1");
+        J2 = GameObject.FindWithTag("Player2");
         ScriptJugador1 = FindAnyObjectByType<DinoJugador1>();
         ScriptJugador2 = FindAnyObjectByType<DinoJugador2>();
         if (ScriptJugador1.VidaJ1 <= 0 && VictoriaJ2 == 0 && VictoriaJ1 == 0)
@@ -116,7 +116,7 @@ public class RoundManager : MonoBehaviour
         ScriptJugador2.VidaJ2 = 100;
         ScriptJugador2.EnergiaJ2 = 100;
     }
-    void reset()
+    void Reset()
     {
         SceneManager.LoadScene("TestFight");
     }
