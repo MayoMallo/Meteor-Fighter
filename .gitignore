@@ -1,0 +1,24 @@
+# Archivos de Unity a ignorar
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+# Archivos de Visual Studio / Rider
+.vs/
+.vscode/
+.idea/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de usuario de Unity
+*.csproj
+*.unityproj
+*.sln
+*.user
+*.userprefs

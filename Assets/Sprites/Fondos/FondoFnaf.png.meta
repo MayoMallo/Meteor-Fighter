@@ -1,0 +1,2987 @@
+fileFormatVersion: 2
+guid: bf6e3891e2a5594e58c9ebe7b2b19dae
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FondoFnaf_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5400
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adbff3580aedfc10e8e2c074b0f7a02b
+      internalID: -266678593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_1
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 5400
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb3a198c7de54d7bdbc688190abab907
+      internalID: 554320657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_2
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 5400
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 372525538e095602d9dfa52fd9e813f5
+      internalID: 1690942539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_3
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 5400
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ce8758f0f3a9b4ffac1821d1752eb20
+      internalID: -660774440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_4
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 5400
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a9bd64277144f7191b81eee449e7d1
+      internalID: -1866960301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_5
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 5400
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d5dce789ddbc48d8bd05f3fc6b20ca1
+      internalID: -1869001552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_6
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 5400
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b7336bf87ffc764282afbd12517f360
+      internalID: 1051552744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5100
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad85304ed1cf525498fec65a7dfa4285
+      internalID: 1885832341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_8
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 5100
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 189ef16ab4c20bcc3b0806e0fbcc7437
+      internalID: -1216512218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_9
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 5100
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b07d4a21c3d2d76092adbd6ca9b2d02
+      internalID: 1183876422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_10
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 5100
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cdbb5168f626e0969fbfc01a3b7565a
+      internalID: 2060629577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_11
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 5100
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf2c69199b1c18b3863445dafb367b5
+      internalID: -1290934474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_12
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 5100
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14e5f132869478b75ba918f8419c2c56
+      internalID: 1975396176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_13
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 5100
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbe76fcb44cab7dfca7deae748b375d0
+      internalID: 252600371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4800
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f9b5200ba026227aead7a27bb324e9
+      internalID: 663984411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_15
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 4800
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4d8e3046783b32708ea2f5ba44a2ea3
+      internalID: 508078699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_16
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 4800
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 882220e86b3415522bd65f502795a1a2
+      internalID: 2132181398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_17
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 4800
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd82395bc21807a1da1e044bedfe96c4
+      internalID: -494303188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_18
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 4800
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 873c09067a7577efd8e8b8d4d7f8f9e4
+      internalID: 1051402715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_19
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 4800
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5de02f8a30ebc7ce7aeb69dffc220cf4
+      internalID: -588309658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_20
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 4800
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4490c777e0d29fe70b1c4d63f7b4c487
+      internalID: 1064128997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4500
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1b5defe5ba8bc85d9d1688c100ab82d
+      internalID: -101666190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_22
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 4500
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc0b3758bab1a354ad213bab2b15342
+      internalID: 97380175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_23
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 4500
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e07eba7951dc5f78851b7d95de1db5
+      internalID: 405577504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_24
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 4500
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4634d8cc63e8255eaef20802116d6cd
+      internalID: 1650603732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_25
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 4500
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a4265b6cce347ae878da8b8340f7f0
+      internalID: -1071835031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_26
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 4500
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0315ee8a73db370108bd434ca795d933
+      internalID: 131192357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_27
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 4500
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e9e029eefb673463a059b6078f863fd
+      internalID: 317902206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4200
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02257b13377a00ee89ec0f2263731d94
+      internalID: 320405333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_29
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 4200
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7a4c72cd765ca92e9fda8d8e11222d4
+      internalID: 1693365971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_30
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 4200
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7dbd2d6811197626a840ddf39ca6a1a
+      internalID: 417403219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_31
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 4200
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4933061a1770f7f4081e79035b111c4a
+      internalID: 81518472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_32
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 4200
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a6d940741ae63bb89ce7c384b3e909
+      internalID: -1861808278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_33
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 4200
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4fddbf726d2f19bb9b95e3745aa0c21
+      internalID: 572399998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_34
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 4200
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c866138df13223c187504c971cd5cb8
+      internalID: 1265960495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3900
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c5f5abb7969ad962ba3ab7f6b56a325
+      internalID: -704554016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_36
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 3900
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf9a5a6c691f67b70af3b3d54a6fdacd
+      internalID: -1228362731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_37
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 3900
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb67ca7399bca9bf5bb2edf7c3ae57cc
+      internalID: 1879756643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_38
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 3900
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a448389a3293d5b6b48edb3bfda9985
+      internalID: -657217084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_39
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 3900
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 337ced20017c5bb24ad0184eaf292e17
+      internalID: 65837065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_40
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 3900
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa421f5834ef9f0059d3bfce2b71be98
+      internalID: 1534799274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_41
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 3900
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 156a335825b57fa4c80d5df73ce025ea
+      internalID: 829408256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3600
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6743b46b624c696488922179f790809a
+      internalID: 1278775247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_43
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 3600
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca07f064fbb3846b79c1610bbd8bcb95
+      internalID: 1236257707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_44
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 3600
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0592b046da3796393b13d939bf93b5f2
+      internalID: 633431129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_45
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 3600
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e4d7221b193b0ac08d9560b6def7064
+      internalID: -880124632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_46
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 3600
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36aebaa6cc5cbf9feaccce56b8f746c1
+      internalID: -1207876250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_47
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 3600
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69679a92ac30b5e039731dd050986723
+      internalID: 1666144366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_48
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 3600
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b14590053884a968cae977206010fc48
+      internalID: -22070266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3300
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8043c7e9419a6fac89ec8c476f633f88
+      internalID: -2119065294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_50
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 3300
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49f8057f366219887a3891ab4165c4ba
+      internalID: -357936392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_51
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 3300
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c04318d997c0b9d3b766cfa92873f66
+      internalID: -2130462575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_52
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 3300
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14114a42346977b71a99417ea178bda1
+      internalID: 852571953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_53
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 3300
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 913b1fe1a0bf3f9d48aab6a944d0e4c5
+      internalID: 1880391455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_54
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 3300
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa414bfc8fd89d98d8f272e40af2f226
+      internalID: 833217802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_55
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 3300
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62e515d0934a2a847a5ba8f391fc3c42
+      internalID: 622432069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3000
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c504e3a0eefa3efd8d41749d53e0fea
+      internalID: -139421199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_57
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 3000
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70179bd2ea74d540d8d7c5a10df9f933
+      internalID: -871157476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_58
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 3000
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de1e845dddca6cb3dbc0d82c3ea632d0
+      internalID: -2027011386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_59
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 3000
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 325a6ff9442585196ba4c1b340b4e7d2
+      internalID: -972695975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_60
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 3000
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53c2b8702f492145cbf208d83a379725
+      internalID: -1862810308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_61
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 3000
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d571dcc0237a8bcc69a8fc047cd02b9d
+      internalID: -311396990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_62
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 3000
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35e91adb2ef3924bb8c8a8888a47f11c
+      internalID: -1725338822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2700
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed93df07c0ec6dd89a3e2e15987626b6
+      internalID: 1517789286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_64
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 2700
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f098c2f9068559c1afc8ef8affaec7f
+      internalID: 1951204468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_65
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2700
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fef731401d573420bb0b6de8d8d85f6
+      internalID: 1798555645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_66
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 2700
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b366619553772f0a8dc6aabe5c51931
+      internalID: -2017505131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_67
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2700
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b56e841bcf691c58393d58901dd0f609
+      internalID: 1607801429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_68
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 2700
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb53e66fe75c1fe49c1628c4018fc02
+      internalID: 1150528026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_69
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 2700
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7382d8c566fa3215aaddf19ac2ea485f
+      internalID: 283602347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2400
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3ced70cdc3396c87ad5ccbdcfd79eb0
+      internalID: -164298571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_71
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 2400
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e845ad4238cf8e1ecb2a67853d230381
+      internalID: -1051070214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_72
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2400
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b68beefce921843b6bc95a9fea3ac3
+      internalID: 2105923274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_73
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 2400
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 189dd611589d55dc2b3c83d8a006dcca
+      internalID: 713686168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_74
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2400
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c50313d5d779e0b9a3138bf3e1f98c3
+      internalID: -507101660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_75
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 2400
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca6dff77950535c81a40eaf6ed6ebdc1
+      internalID: -644407458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_76
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 2400
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5918159d324fd38ba1df4c9a29316f5
+      internalID: -1965023565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2100
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87106ea03b461537bb727719654f987c
+      internalID: 871990482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_78
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 2100
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e10ce5dfaf752d50486e4bd202c8715a
+      internalID: 772968712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_79
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2100
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca6f24ea91908b93ca842b3b6b4addaa
+      internalID: -157986849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_80
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 2100
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d0d3931d73ea9aeaa72a4bc1a2d5fc8
+      internalID: 505079941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_81
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2100
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08ebd610bd431dc3c953a36a0eb98748
+      internalID: 1012900039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_82
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 2100
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15cad88e77a2f4d579468aa297d5f4a6
+      internalID: 602974984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_83
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 2100
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54b952fe4480d1bcca74ef2af126a42b
+      internalID: 2017805398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1800
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a8367172e14a0258afa9920eff6223e
+      internalID: -392400588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_85
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1800
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 208f1532bd8a45326b3ab7ce89c76dc1
+      internalID: -309195097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_86
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1800
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e60be0be527f7634b70e27053983b8a
+      internalID: 1420196887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_87
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 1800
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d860780414167ad86a6c1cafae20f0ec
+      internalID: 742014588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_88
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1800
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c6c4c6b8341fd003b61fd4f05241724
+      internalID: -1532363305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_89
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 1800
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05e3312defe859a219965f62d1cce5ee
+      internalID: -1261696698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_90
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 1800
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e84f5a6060093248c52aea9235486b
+      internalID: 1594829299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_91
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1500
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e8007bf5e030417a43bf8aa47227c3
+      internalID: -952984315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_92
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1500
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db2a5bf82e438c380b071e2f191540f5
+      internalID: 2132295762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_93
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1500
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680b68d70f4fb2fb59574b64b8c214b3
+      internalID: -712111332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_94
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 1500
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e9ab03700f576394ac8e967883d9844
+      internalID: 1442405885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_95
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1500
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7e13ea6e73d5d3cc8c9ca1422213bb4
+      internalID: 1799690409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_96
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 1500
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fddf1d938b792f4569d2b9175c30a62a
+      internalID: -1978767008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_97
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 1500
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d23e411273c64d7a5413c7f8517be8
+      internalID: 259769351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_98
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1200
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b033338ecac3563e9fabb0cb61c696f
+      internalID: -659935811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_99
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1200
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f89ea3cec7b47944fabdd4954f4d0991
+      internalID: -1147020520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_100
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1200
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d03dd224535fecd58f7c4beca124e47
+      internalID: -1971227191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_101
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 1200
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 814847fb15517a917b7f99199ad4524c
+      internalID: -430849709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_102
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1200
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1754a6fd05ec64ef0acba30ab05ec9e4
+      internalID: 1651996702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_103
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 1200
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4606053c0120cab09b0660e7f066b17d
+      internalID: 1952632742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_104
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 1200
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cf68079bb34fdcf1b1f791b2d2d0bdb
+      internalID: -833834404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 900
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c92196188c6df63b4a0c16b5ccdda5
+      internalID: 101034722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_106
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 900
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 705b6d7acb3fd9e70a72e1a1caf851ea
+      internalID: 1819772531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_107
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 900
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e9697cb4cd68ed2ebc6026c973fa44c
+      internalID: -1499927633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_108
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 900
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d549b03b5b943eddba981681520632b8
+      internalID: 1145314030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_109
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 900
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 064a56468b7ec03a3a80237b8e470872
+      internalID: 616287863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_110
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 900
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd29f8e62998a7aaeadfc2d87dfff29a
+      internalID: -2117259585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_111
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 900
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c51842bb3b9bc65cdbde74f254e7049f
+      internalID: -367880557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05e21f66c12a0f6cab19ec6d03f668c2
+      internalID: 232103646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_113
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 600
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e574ae3cd7df9408f8deaa22549fa4d3
+      internalID: -40067595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_114
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 600
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5099b0caceb36636a9667d614953d3c7
+      internalID: -1267823837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_115
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 600
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a84e0c819bb5eed1a7f9a3755dfda6e
+      internalID: -1350545102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_116
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 600
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75ad81816f3d2dbe2912ef7dda9203e5
+      internalID: 1816534594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_117
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 600
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a84208fc4b41dfe8ee6cbda19c4640
+      internalID: 1451429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_118
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 600
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b5c6b0a7afac58fcbc92041f3bac063
+      internalID: 789700302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_119
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91361802931ddbd3e8d4a5d398c4c5e6
+      internalID: -51071533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_120
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 300
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f37ee54d6659069f9946d9786a7265f
+      internalID: -969131258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_121
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 300
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c6e523c0fa734f16b05014d6a1c7423
+      internalID: 971666083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_122
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 300
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fa08beda2f782ad9b71dec833dbba08
+      internalID: 1344120503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_123
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 300
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 360fa5e9dad121709a094a3eb0beb3e3
+      internalID: -1157168252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_124
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 300
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ddba77a6953c0e38ab3272f9e61a6c
+      internalID: 1646257977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_125
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 300
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e2d9cfe37ecb3515bb94ff224ddce2e
+      internalID: 1586366557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_126
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6503134b2310988fb812330653d0b78
+      internalID: 521168914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_127
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 0
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ae935c5347d254569ac637c54b9d16c
+      internalID: 858969965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_128
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 0
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f3fb760ab4d154cc94d245b286bfaf9
+      internalID: -1404120895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FondoFnaf_129
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 0
+        width: 900
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ba729649d28c2c04b35b6fad7bf29d4
+      internalID: -923819087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      FondoFnaf_0: -266678593
+      FondoFnaf_1: 554320657
+      FondoFnaf_10: 2060629577
+      FondoFnaf_100: -1971227191
+      FondoFnaf_101: -430849709
+      FondoFnaf_102: 1651996702
+      FondoFnaf_103: 1952632742
+      FondoFnaf_104: -833834404
+      FondoFnaf_105: 101034722
+      FondoFnaf_106: 1819772531
+      FondoFnaf_107: -1499927633
+      FondoFnaf_108: 1145314030
+      FondoFnaf_109: 616287863
+      FondoFnaf_11: -1290934474
+      FondoFnaf_110: -2117259585
+      FondoFnaf_111: -367880557
+      FondoFnaf_112: 232103646
+      FondoFnaf_113: -40067595
+      FondoFnaf_114: -1267823837
+      FondoFnaf_115: -1350545102
+      FondoFnaf_116: 1816534594
+      FondoFnaf_117: 1451429
+      FondoFnaf_118: 789700302
+      FondoFnaf_119: -51071533
+      FondoFnaf_12: 1975396176
+      FondoFnaf_120: -969131258
+      FondoFnaf_121: 971666083
+      FondoFnaf_122: 1344120503
+      FondoFnaf_123: -1157168252
+      FondoFnaf_124: 1646257977
+      FondoFnaf_125: 1586366557
+      FondoFnaf_126: 521168914
+      FondoFnaf_127: 858969965
+      FondoFnaf_128: -1404120895
+      FondoFnaf_129: -923819087
+      FondoFnaf_13: 252600371
+      FondoFnaf_14: 663984411
+      FondoFnaf_15: 508078699
+      FondoFnaf_16: 2132181398
+      FondoFnaf_17: -494303188
+      FondoFnaf_18: 1051402715
+      FondoFnaf_19: -588309658
+      FondoFnaf_2: 1690942539
+      FondoFnaf_20: 1064128997
+      FondoFnaf_21: -101666190
+      FondoFnaf_22: 97380175
+      FondoFnaf_23: 405577504
+      FondoFnaf_24: 1650603732
+      FondoFnaf_25: -1071835031
+      FondoFnaf_26: 131192357
+      FondoFnaf_27: 317902206
+      FondoFnaf_28: 320405333
+      FondoFnaf_29: 1693365971
+      FondoFnaf_3: -660774440
+      FondoFnaf_30: 417403219
+      FondoFnaf_31: 81518472
+      FondoFnaf_32: -1861808278
+      FondoFnaf_33: 572399998
+      FondoFnaf_34: 1265960495
+      FondoFnaf_35: -704554016
+      FondoFnaf_36: -1228362731
+      FondoFnaf_37: 1879756643
+      FondoFnaf_38: -657217084
+      FondoFnaf_39: 65837065
+      FondoFnaf_4: -1866960301
+      FondoFnaf_40: 1534799274
+      FondoFnaf_41: 829408256
+      FondoFnaf_42: 1278775247
+      FondoFnaf_43: 1236257707
+      FondoFnaf_44: 633431129
+      FondoFnaf_45: -880124632
+      FondoFnaf_46: -1207876250
+      FondoFnaf_47: 1666144366
+      FondoFnaf_48: -22070266
+      FondoFnaf_49: -2119065294
+      FondoFnaf_5: -1869001552
+      FondoFnaf_50: -357936392
+      FondoFnaf_51: -2130462575
+      FondoFnaf_52: 852571953
+      FondoFnaf_53: 1880391455
+      FondoFnaf_54: 833217802
+      FondoFnaf_55: 622432069
+      FondoFnaf_56: -139421199
+      FondoFnaf_57: -871157476
+      FondoFnaf_58: -2027011386
+      FondoFnaf_59: -972695975
+      FondoFnaf_6: 1051552744
+      FondoFnaf_60: -1862810308
+      FondoFnaf_61: -311396990
+      FondoFnaf_62: -1725338822
+      FondoFnaf_63: 1517789286
+      FondoFnaf_64: 1951204468
+      FondoFnaf_65: 1798555645
+      FondoFnaf_66: -2017505131
+      FondoFnaf_67: 1607801429
+      FondoFnaf_68: 1150528026
+      FondoFnaf_69: 283602347
+      FondoFnaf_7: 1885832341
+      FondoFnaf_70: -164298571
+      FondoFnaf_71: -1051070214
+      FondoFnaf_72: 2105923274
+      FondoFnaf_73: 713686168
+      FondoFnaf_74: -507101660
+      FondoFnaf_75: -644407458
+      FondoFnaf_76: -1965023565
+      FondoFnaf_77: 871990482
+      FondoFnaf_78: 772968712
+      FondoFnaf_79: -157986849
+      FondoFnaf_8: -1216512218
+      FondoFnaf_80: 505079941
+      FondoFnaf_81: 1012900039
+      FondoFnaf_82: 602974984
+      FondoFnaf_83: 2017805398
+      FondoFnaf_84: -392400588
+      FondoFnaf_85: -309195097
+      FondoFnaf_86: 1420196887
+      FondoFnaf_87: 742014588
+      FondoFnaf_88: -1532363305
+      FondoFnaf_89: -1261696698
+      FondoFnaf_9: 1183876422
+      FondoFnaf_90: 1594829299
+      FondoFnaf_91: -952984315
+      FondoFnaf_92: 2132295762
+      FondoFnaf_93: -712111332
+      FondoFnaf_94: 1442405885
+      FondoFnaf_95: 1799690409
+      FondoFnaf_96: -1978767008
+      FondoFnaf_97: 259769351
+      FondoFnaf_98: -659935811
+      FondoFnaf_99: -1147020520
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
