@@ -16,7 +16,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &4661501002143882385
 Transform:
   m_ObjectHideFlags: 0
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_LightType: 1
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.632
-  m_Color: {r: 1, g: 0.8231733, b: 0.5821683, a: 1}
+  m_Color: {r: 1, g: 0.5794392, b: 0, a: 1}
   m_Intensity: 0.87
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
@@ -134,11 +134,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2407595820321546867, guid: bc14974ed6ff9f3439b2907881150b4c, type: 3}
       propertyPath: m_LocalScale.x
-      value: 2.946452
+      value: 4.409901
       objectReference: {fileID: 0}
     - target: {fileID: 2407595820321546867, guid: bc14974ed6ff9f3439b2907881150b4c, type: 3}
       propertyPath: m_LocalScale.y
-      value: 3.3328671
+      value: 2.5730517
       objectReference: {fileID: 0}
     - target: {fileID: 2407595820321546867, guid: bc14974ed6ff9f3439b2907881150b4c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -150,7 +150,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2407595820321546867, guid: bc14974ed6ff9f3439b2907881150b4c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 90
+      value: 94.328026
       objectReference: {fileID: 0}
     - target: {fileID: 2407595820321546867, guid: bc14974ed6ff9f3439b2907881150b4c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -170,11 +170,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2407595820321546867, guid: bc14974ed6ff9f3439b2907881150b4c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.13792
+      value: 0.4453
       objectReference: {fileID: 0}
     - target: {fileID: 2407595820321546867, guid: bc14974ed6ff9f3439b2907881150b4c, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -0.02663
       objectReference: {fileID: 0}
     - target: {fileID: 2407595820321546867, guid: bc14974ed6ff9f3439b2907881150b4c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -198,7 +198,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4461326026422190419, guid: bc14974ed6ff9f3439b2907881150b4c, type: 3}
       propertyPath: m_Name
-      value: Fondo Lava 1
+      value: Fondo Lava
       objectReference: {fileID: 0}
     - target: {fileID: 8517621468672045179, guid: bc14974ed6ff9f3439b2907881150b4c, type: 3}
       propertyPath: m_Sprite
@@ -209,6 +209,7 @@ PrefabInstance:
     - {fileID: 5601118811395789202, guid: bc14974ed6ff9f3439b2907881150b4c, type: 3}
     - {fileID: 6139827248650315159, guid: bc14974ed6ff9f3439b2907881150b4c, type: 3}
     - {fileID: 3983873858089999171, guid: bc14974ed6ff9f3439b2907881150b4c, type: 3}
+    - {fileID: 4987853420458029949, guid: bc14974ed6ff9f3439b2907881150b4c, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 2407595820321546867, guid: bc14974ed6ff9f3439b2907881150b4c, type: 3}
       insertIndex: 0

@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Intro.unity
+    guid: e3da897a0106baed5acf66a140fd0fd9
+  - enabled: 1
+    path: Assets/Scenes/Story.unity
+    guid: 29ae2c94a50acd352b466b7124d0132e
+  - enabled: 1
     path: Assets/Scenes/Tutorial.unity
     guid: 0e7ddf1dd35bb340c89645b0f81fdbb1
   - enabled: 1
@@ -26,9 +32,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Credits.unity
     guid: 1eaad962b96b5fda792d9dda7bd6422f
-  - enabled: 1
-    path: Assets/Scenes/Story.unity
-    guid: 29ae2c94a50acd352b466b7124d0132e
   - enabled: 0
     path: Assets/Scenes/CharacterSelector.unity
     guid: a85117c51c0604e90bbae33c85376aa2
@@ -36,7 +39,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Selector.unity
     guid: d11a9cd7bef9bb31591d98c59d54cae9
   - enabled: 1
-    path: Assets/Scenes/Intro.unity
-    guid: e3da897a0106baed5acf66a140fd0fd9
+    path: Assets/Scenes/TestFight 1.unity
+    guid: 22ac6dc15d9e7180c8c7d57d3f39e6e0
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

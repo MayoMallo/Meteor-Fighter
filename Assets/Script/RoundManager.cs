@@ -5,8 +5,8 @@ public class RoundManager : MonoBehaviour
 {
 
     public static RoundManager instancia;
-    public DinoJugador1 ScriptJugador1;
-    public DinoJugador2 ScriptJugador2;
+    public Player1 Player1;
+    public Player2 Player2;
     public GameObject Win1;
     public GameObject Win2;
     public GameObject Win1J2;
@@ -22,10 +22,12 @@ public class RoundManager : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        J1 = GameObject.Find("Player1");
+        J2 = GameObject.Find("Player2");
         originalPosition = J1.transform.position;
         originalPosition2 = J2.transform.position;
-        ScriptJugador1 = FindAnyObjectByType<DinoJugador1>();
-        ScriptJugador2 = FindAnyObjectByType<DinoJugador2>();
+        Player1 = FindAnyObjectByType<Player1>();
+        Player2 = FindAnyObjectByType<Player2>();
     }
     void Awake()
     {
@@ -43,65 +45,56 @@ public class RoundManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        J1 = GameObject.FindWithTag("Player1");
-        J2 = GameObject.FindWithTag("Player2");
-        ScriptJugador1 = FindAnyObjectByType<DinoJugador1>();
-        ScriptJugador2 = FindAnyObjectByType<DinoJugador2>();
-        if (ScriptJugador1.VidaJ1 <= 0 && VictoriaJ2 == 0 && VictoriaJ1 == 0)
+        J1 = GameObject.Find("Player1");
+        J2 = GameObject.Find("Player2");
+        Player1 = FindAnyObjectByType<Player1>();
+        Player2 = FindAnyObjectByType<Player2>();
+        if (Player1.VidaJ1 <= 0 && VictoriaJ2 == 0 && VictoriaJ1 == 0)
         {
             pantalla.SetBool("Round2", true);
             Invoke("reset", 2f);
-            Invoke("RoundEnd", 0f);
             Invoke("NextRound", 2f);
             Invoke("gano2", 2f);
             Win1J2.SetActive(true);
         }
-        if (ScriptJugador2.VidaJ2 <= 0 && VictoriaJ1 == 0 && VictoriaJ2 == 0)
+        if (Player2.VidaJ2 <= 0 && VictoriaJ1 == 0 && VictoriaJ2 == 0)
         {
             pantalla.SetBool("Round2", true);
             Invoke("reset", 2f);
-            Invoke("RoundEnd", 0f);
-            Invoke("NextRound", 2f);
+            Invoke("NextRound", 2.01f);
             Invoke("gano1", 2f);
             Win1.SetActive(true);
         }
-        if (ScriptJugador1.VidaJ1 <= 0 && VictoriaJ2 == 0 && VictoriaJ1 == 1)
+        if (Player1.VidaJ1 <= 0 && VictoriaJ2 == 0 && VictoriaJ1 >= 1)
         {
             pantalla.SetBool("Round3", true);
             Invoke("reset", 2f);
-            Invoke("RoundEnd", 0f);
             Invoke("NextRound", 2f);
             Invoke("gano2", 2f);
             Win1J2.SetActive(true);
         }
-        if (ScriptJugador2.VidaJ2 <= 0 && VictoriaJ1 == 0 && VictoriaJ2 == 1)
+        if (Player2.VidaJ2 <= 0 && VictoriaJ1 == 0 && VictoriaJ2 >= 1)
         {
             pantalla.SetBool("Round3", true);
             Invoke("gano1", 2f);
             Invoke("reset", 2f);
-            Invoke("RoundEnd", 0f);
             Invoke("NextRound", 2f);
             Win1.SetActive(true);
         }
 
-        if (ScriptJugador2.VidaJ2 <=0 && VictoriaJ1 == 1)
+        if (Player2.VidaJ2 <=0 && VictoriaJ1 >= 1)
         {
-            ScriptJugador1.gano = true;
+            Player1.gano = true;
             J2.SetActive(false);
             Win2.SetActive(true);
         }
-        if (ScriptJugador1.VidaJ1 <=0 && VictoriaJ2 == 1)
+        if (Player1.VidaJ1 <=0 && VictoriaJ2 >= 1)
         {
-            ScriptJugador2.gano = true;
+            Player2.gano = true;
             J1.SetActive(false);
             win2J2.SetActive(true);
         }
         
-    }
-    void RoundEnd()
-    {
-        J1.SetActive(false);
-        J2.SetActive(false);
     }
     void NextRound()
     {
@@ -111,13 +104,15 @@ public class RoundManager : MonoBehaviour
         J2.SetActive(true);
         J1.transform.position = originalPosition;
         J2.transform.position = originalPosition2;
-        ScriptJugador1.VidaJ1 = 100;
-        ScriptJugador1.EnergiaJ1 = 100;
-        ScriptJugador2.VidaJ2 = 100;
-        ScriptJugador2.EnergiaJ2 = 100;
+        Player1.VidaJ1 = 100;
+        Player1.EnergiaJ1 = 100;
+        Player2.VidaJ2 = 100;
+        Player2.EnergiaJ2 = 100;
     }
     void Reset()
     {
+        Destroy(J1);
+        Destroy(J2);
         SceneManager.LoadScene("TestFight");
     }
     void gano1()

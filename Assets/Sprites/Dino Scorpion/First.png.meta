@@ -99,7 +99,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -144,9 +144,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 18
-        width: 46
-        height: 44
+        y: 0
+        width: 80
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,9 +166,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 80
-        y: 18
-        width: 46
-        height: 44
+        y: 0
+        width: 80
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -188,9 +188,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 160
-        y: 18
-        width: 49
-        height: 44
+        y: 0
+        width: 80
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -209,10 +209,10 @@ TextureImporter:
       name: First_3
       rect:
         serializedVersion: 2
-        x: 200
-        y: 35
-        width: 10
-        height: 11
+        x: 240
+        y: 0
+        width: 80
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -231,10 +231,10 @@ TextureImporter:
       name: First_4
       rect:
         serializedVersion: 2
-        x: 240
-        y: 18
-        width: 49
-        height: 44
+        x: 320
+        y: 0
+        width: 80
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -253,10 +253,10 @@ TextureImporter:
       name: First_5
       rect:
         serializedVersion: 2
-        x: 280
-        y: 35
-        width: 10
-        height: 11
+        x: 400
+        y: 0
+        width: 80
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -275,10 +275,10 @@ TextureImporter:
       name: First_6
       rect:
         serializedVersion: 2
-        x: 320
-        y: 18
-        width: 50
-        height: 44
+        x: 480
+        y: 0
+        width: 80
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -293,77 +293,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: First_7
-      rect:
-        serializedVersion: 2
-        x: 400
-        y: 18
-        width: 50
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f3c46cba5531fe420800000000000000
-      internalID: 2661367163474299967
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First_8
-      rect:
-        serializedVersion: 2
-        x: 480
-        y: 18
-        width: 49
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e799287e834229300800000000000000
-      internalID: 257307955534403966
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: First_9
-      rect:
-        serializedVersion: 2
-        x: 520
-        y: 35
-        width: 10
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 25cb7938f25ca9960800000000000000
-      internalID: 7609611328257768530
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: f0a9669744763ba47b01141c57e23938
     internalID: 0
     vertices: []
     indices: 
@@ -380,9 +314,6 @@ TextureImporter:
       First_4: 3458957473901308031
       First_5: 4074036423789900071
       First_6: -5566151521748751255
-      First_7: 2661367163474299967
-      First_8: 257307955534403966
-      First_9: 7609611328257768530
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

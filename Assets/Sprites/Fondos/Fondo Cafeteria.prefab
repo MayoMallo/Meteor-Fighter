@@ -82,7 +82,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7680319840152909252, guid: 5e1e27e2aff2bdfd5bf9b8a048488107, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.4904256
+      value: 1.8426131
       objectReference: {fileID: 0}
     - target: {fileID: 7680319840152909252, guid: 5e1e27e2aff2bdfd5bf9b8a048488107, type: 3}
       propertyPath: m_LocalScale.y
@@ -138,7 +138,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8508801582032246500, guid: 5e1e27e2aff2bdfd5bf9b8a048488107, type: 3}
       propertyPath: m_Name
-      value: Fondo Variant
+      value: Fondo Cafeteria
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6026111346850127666, guid: 5e1e27e2aff2bdfd5bf9b8a048488107, type: 3}

@@ -14,6 +14,12 @@ TagManager:
   - AttackJ2
   - UltiJoker
   - Pared
+  - BarraDeVidaJ1
+  - BarraDeEnergiaJ1
+  - Pantalla
+  - ShootJ1
+  - BarraDeVidaJ2
+  - BarraDeEnergiaJ2
   layers:
   - Default
   - TransparentFX

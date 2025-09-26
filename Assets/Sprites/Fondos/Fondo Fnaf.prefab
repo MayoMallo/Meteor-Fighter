@@ -693,13 +693,14 @@ GameObject:
   - component: {fileID: 420147558986299602}
   - component: {fileID: 6026111346850127666}
   - component: {fileID: 4451858876471044044}
+  - component: {fileID: 3677717180319508950}
   m_Layer: 0
   m_Name: Fondo Fnaf
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &7680319840152909252
 RectTransform:
   m_ObjectHideFlags: 0
@@ -707,7 +708,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8508801582032246500}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 90}
   m_LocalScale: {x: 3.9117403, y: 3.376689, z: 0.015824052}
   m_ConstrainProportionsScale: 0
@@ -809,6 +810,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &3677717180319508950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8508801582032246500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e185191789284f90981d5cd18e525a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8609518793078359496
 GameObject:
   m_ObjectHideFlags: 0

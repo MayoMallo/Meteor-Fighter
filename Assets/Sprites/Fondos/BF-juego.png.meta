@@ -1,0 +1,1137 @@
+fileFormatVersion: 2
+guid: 59b67b0013d4876688d2521674c15737
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 644318081945410460
+    second: BF-juego_0
+  - first:
+      213: 987027579288210221
+    second: BF-juego_1
+  - first:
+      213: 5518449650121346326
+    second: BF-juego_2
+  - first:
+      213: -3264125113842409153
+    second: BF-juego_3
+  - first:
+      213: -4570187858539971709
+    second: BF-juego_4
+  - first:
+      213: 4839032330369714846
+    second: BF-juego_5
+  - first:
+      213: 3090993746366476881
+    second: BF-juego_6
+  - first:
+      213: -2753165391387379049
+    second: BF-juego_7
+  - first:
+      213: -6922846728382535881
+    second: BF-juego_8
+  - first:
+      213: -8065778710701402830
+    second: BF-juego_9
+  - first:
+      213: -672385468818568743
+    second: BF-juego_10
+  - first:
+      213: -3943380063175049972
+    second: BF-juego_11
+  - first:
+      213: 4476073036706473450
+    second: BF-juego_12
+  - first:
+      213: 9078061590629111775
+    second: BF-juego_13
+  - first:
+      213: -1877731480943067446
+    second: BF-juego_14
+  - first:
+      213: -4146262215244035366
+    second: BF-juego_15
+  - first:
+      213: 2246740797977449761
+    second: BF-juego_16
+  - first:
+      213: -6517156424479762103
+    second: BF-juego_17
+  - first:
+      213: -2251813187365538284
+    second: BF-juego_18
+  - first:
+      213: 6951049734744295545
+    second: BF-juego_19
+  - first:
+      213: -4608812123450119562
+    second: BF-juego_20
+  - first:
+      213: -8912528425208687034
+    second: BF-juego_21
+  - first:
+      213: -3392296165197605436
+    second: BF-juego_22
+  - first:
+      213: -8718103065301269733
+    second: BF-juego_23
+  - first:
+      213: 8288971703077693913
+    second: BF-juego_24
+  - first:
+      213: -8747545320775437671
+    second: BF-juego_25
+  - first:
+      213: -1605745850008920918
+    second: BF-juego_26
+  - first:
+      213: 7205090676251034775
+    second: BF-juego_27
+  - first:
+      213: -1409905932724559081
+    second: BF-juego_28
+  - first:
+      213: 3703498218503093028
+    second: BF-juego_29
+  - first:
+      213: 2820357802277145003
+    second: BF-juego_30
+  - first:
+      213: 1352824535177933457
+    second: BF-juego_31
+  - first:
+      213: -1032173629429544598
+    second: BF-juego_32
+  - first:
+      213: 1301689967999799689
+    second: BF-juego_33
+  - first:
+      213: -8969607159232971810
+    second: BF-juego_34
+  - first:
+      213: -9094038480531501400
+    second: BF-juego_35
+  - first:
+      213: -6953102039735340102
+    second: BF-juego_36
+  - first:
+      213: 1374465082202444186
+    second: BF-juego_37
+  - first:
+      213: -524122054928286732
+    second: BF-juego_38
+  - first:
+      213: 1777115120334182569
+    second: BF-juego_39
+  - first:
+      213: 6533469662146401709
+    second: BF-juego_40
+  - first:
+      213: 1259868489431241819
+    second: BF-juego_41
+  - first:
+      213: -3284222440653417361
+    second: BF-juego_42
+  - first:
+      213: 7834820495712110725
+    second: BF-juego_43
+  - first:
+      213: -8582878415448554097
+    second: BF-juego_44
+  - first:
+      213: 2589282231143629391
+    second: BF-juego_45
+  - first:
+      213: 8744173287666792005
+    second: BF-juego_46
+  - first:
+      213: 8146156096019123213
+    second: BF-juego_47
+  - first:
+      213: -7433117567765312293
+    second: BF-juego_48
+  - first:
+      213: 7181722053682744786
+    second: BF-juego_49
+  - first:
+      213: 135278286622880268
+    second: BF-juego_50
+  - first:
+      213: -4575070817369604510
+    second: BF-juego_51
+  - first:
+      213: 340437022650594880
+    second: BF-juego_52
+  - first:
+      213: -7774782984093155278
+    second: BF-juego_53
+  - first:
+      213: 1638047182403082900
+    second: BF-juego_54
+  - first:
+      213: 2096312307871424387
+    second: BF-juego_55
+  - first:
+      213: 9135062807071619068
+    second: BF-juego_56
+  - first:
+      213: 7004316130788695766
+    second: BF-juego_57
+  - first:
+      213: -7827779639306825574
+    second: BF-juego_58
+  - first:
+      213: 1817676699860198090
+    second: BF-juego_59
+  - first:
+      213: -6473200457311772809
+    second: BF-juego_60
+  - first:
+      213: 7432184261650032107
+    second: BF-juego_61
+  - first:
+      213: 5314164297074099300
+    second: BF-juego_62
+  - first:
+      213: 6778957156659203244
+    second: BF-juego_63
+  - first:
+      213: 2940067601653185161
+    second: BF-juego_64
+  - first:
+      213: -1198181868377471587
+    second: BF-juego_65
+  - first:
+      213: 7403271675215505401
+    second: BF-juego_66
+  - first:
+      213: 7288547174795292751
+    second: BF-juego_67
+  - first:
+      213: -1720079163847146295
+    second: BF-juego_68
+  - first:
+      213: 426173807976548147
+    second: BF-juego_69
+  - first:
+      213: 2732263112355815234
+    second: BF-juego_70
+  - first:
+      213: -6299841894396255214
+    second: BF-juego_71
+  - first:
+      213: 8161148811870517158
+    second: BF-juego_72
+  - first:
+      213: -6552981753191701308
+    second: BF-juego_73
+  - first:
+      213: 6141145215530699211
+    second: BF-juego_74
+  - first:
+      213: -4105750546568548700
+    second: BF-juego_75
+  - first:
+      213: -411641467684933317
+    second: BF-juego_76
+  - first:
+      213: -2720046651029889288
+    second: BF-juego_77
+  - first:
+      213: -1041383589222911115
+    second: BF-juego_78
+  - first:
+      213: -8320334440109050020
+    second: BF-juego_79
+  - first:
+      213: 654996708550456870
+    second: BF-juego_80
+  - first:
+      213: -1189940079756260008
+    second: BF-juego_81
+  - first:
+      213: -1147368738760278825
+    second: BF-juego_82
+  - first:
+      213: -232384126383459038
+    second: BF-juego_83
+  - first:
+      213: 1804980775751441220
+    second: BF-juego_84
+  - first:
+      213: 4914768719834502786
+    second: BF-juego_85
+  - first:
+      213: 1015092042344903442
+    second: BF-juego_86
+  - first:
+      213: -4258808074056865313
+    second: BF-juego_87
+  - first:
+      213: -3164525437808585815
+    second: BF-juego_88
+  - first:
+      213: 3466349542207952493
+    second: BF-juego_89
+  - first:
+      213: -5485697240934911433
+    second: BF-juego_90
+  - first:
+      213: 4327443782348011311
+    second: BF-juego_91
+  - first:
+      213: 2648794852039668678
+    second: BF-juego_92
+  - first:
+      213: -8412349482339903185
+    second: BF-juego_93
+  - first:
+      213: 52459362819420214
+    second: BF-juego_94
+  - first:
+      213: -2610588461473094928
+    second: BF-juego_95
+  - first:
+      213: -3442444060276101521
+    second: BF-juego_96
+  - first:
+      213: -5472472862281184521
+    second: BF-juego_97
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 5000
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BF-juego_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9b97bcb1e311f800800000000000000
+      internalID: 644318081945410460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BF-juego_1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 300
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2bccf69a50a2bd00800000000000000
+      internalID: 987027579288210221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BF-juego_2
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 300
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61d8c5208b8759c40800000000000000
+      internalID: 5518449650121346326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BF-juego_3
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 300
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f31edf6c08f73b2d0800000000000000
+      internalID: -3264125113842409153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BF-juego_4
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 300
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38bfbe64b5e6390c0800000000000000
+      internalID: -4570187858539971709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BF-juego_5
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 300
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9a41542442b72340800000000000000
+      internalID: 4839032330369714846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BF-juego_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 152b02f7f6a65ea20800000000000000
+      internalID: 3090993746366476881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BF-juego_7
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 240
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79ab476d9aacac9d0800000000000000
+      internalID: -2753165391387379049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BF-juego_8
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 240
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 737a840549b1def90800000000000000
+      internalID: -6922846728382535881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BF-juego_9
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 240
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2351cb73ff8901090800000000000000
+      internalID: -8065778710701402830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BF-juego_10
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 240
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d94fe28af43ba6f0800000000000000
+      internalID: -672385468818568743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BF-juego_11
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 240
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0df718b9bc4649c0800000000000000
+      internalID: -3943380063175049972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BF-juego_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 180
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae5e79d26b43e1e30800000000000000
+      internalID: 4476073036706473450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BF-juego_13
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 180
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd7d0964be0cbfd70800000000000000
+      internalID: 9078061590629111775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BF-juego_14
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 180
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acef1deaa25f0f5e0800000000000000
+      internalID: -1877731480943067446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BF-juego_15
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 180
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ada41caab748576c0800000000000000
+      internalID: -4146262215244035366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BF-juego_16
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 180
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 125d2dd1ad60e2f10800000000000000
+      internalID: 2246740797977449761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BF-juego_17
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 180
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9499a35e2c86e85a0800000000000000
+      internalID: -6517156424479762103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BF-juego_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 120
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 416798236d3ffb0e0800000000000000
+      internalID: -2251813187365538284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BF-juego_19
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 120
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 978c18fc7e6177060800000000000000
+      internalID: 6951049734744295545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BF-juego_20
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 120
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67aed31dac53a00c0800000000000000
+      internalID: -4608812123450119562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BF-juego_21
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 120
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6465ddc2e96505480800000000000000
+      internalID: -8912528425208687034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BF-juego_22
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 120
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c51a746c942ce0d0800000000000000
+      internalID: -3392296165197605436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BF-juego_23
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 120
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b13497dd373130780800000000000000
+      internalID: -8718103065301269733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BF-juego_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 60
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d9e53bd8d7580370800000000000000
+      internalID: 8288971703077693913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BF-juego_25
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 60
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 992bc8290e97a9680800000000000000
+      internalID: -8747545320775437671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BF-juego_26
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 60
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aac19a238ae37b9e0800000000000000
+      internalID: -1605745850008920918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BF-juego_27
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 60
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7940c6cbbcf9df360800000000000000
+      internalID: 7205090676251034775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BF-juego_28
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 60
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 713ac3136020f6ce0800000000000000
+      internalID: -1409905932724559081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BF-juego_29
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 60
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42b3b2cf108756330800000000000000
+      internalID: 3703498218503093028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BF-juego_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba90b307a7ce32720800000000000000
+      internalID: 2820357802277145003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2660d813c55e38deb97f1da0108a78b9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BF-juego_0: 644318081945410460
+      BF-juego_1: 987027579288210221
+      BF-juego_10: -672385468818568743
+      BF-juego_11: -3943380063175049972
+      BF-juego_12: 4476073036706473450
+      BF-juego_13: 9078061590629111775
+      BF-juego_14: -1877731480943067446
+      BF-juego_15: -4146262215244035366
+      BF-juego_16: 2246740797977449761
+      BF-juego_17: -6517156424479762103
+      BF-juego_18: -2251813187365538284
+      BF-juego_19: 6951049734744295545
+      BF-juego_2: 5518449650121346326
+      BF-juego_20: -4608812123450119562
+      BF-juego_21: -8912528425208687034
+      BF-juego_22: -3392296165197605436
+      BF-juego_23: -8718103065301269733
+      BF-juego_24: 8288971703077693913
+      BF-juego_25: -8747545320775437671
+      BF-juego_26: -1605745850008920918
+      BF-juego_27: 7205090676251034775
+      BF-juego_28: -1409905932724559081
+      BF-juego_29: 3703498218503093028
+      BF-juego_3: -3264125113842409153
+      BF-juego_30: 2820357802277145003
+      BF-juego_4: -4570187858539971709
+      BF-juego_5: 4839032330369714846
+      BF-juego_6: 3090993746366476881
+      BF-juego_7: -2753165391387379049
+      BF-juego_8: -6922846728382535881
+      BF-juego_9: -8065778710701402830
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

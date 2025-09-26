@@ -28,10 +28,21 @@ public class FondoSelector1 : MonoBehaviour
     public Sprite fondo14;
     public Sprite fondo15;
     public Sprite fondo16;
+    public int Slot;
+    [System.Serializable]
+    public class Personajes
+    {
+        public static FondoSelector instance;
+        public string name;
+        public GameObject PJ;
+
+    }
+    public List<Personajes> PJ = new List<Personajes>();
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         rectTransform = GetComponent<RectTransform>();
+        Coco();
     }
     // Start is called once before the first execution of Update after the MonoBehaviour is create
     // Update is called once per frame
@@ -39,26 +50,38 @@ public class FondoSelector1 : MonoBehaviour
     {
         if (Input.GetKey("w") && Sloty > 0 && enput == false)
         {
+            PJ[Slot].PJ.SetActive(false);
             rectTransform.anchoredPosition = new Vector2(rectTransform.anchoredPosition.x, rectTransform.anchoredPosition.y + 200f);
             Sloty -= 1;
+            Slot -= 6;
+            PJ[Slot].PJ.SetActive(true);
             StartCoroutine(DelayInput(0.3f));
         }
         if (Input.GetKey("s") && Sloty < 1 && enput == false)
         {
+            PJ[Slot].PJ.SetActive(false);
             rectTransform.anchoredPosition = new Vector2(rectTransform.anchoredPosition.x, rectTransform.anchoredPosition.y - 200f);
             Sloty += 1;
+            Slot += 6;
+            PJ[Slot].PJ.SetActive(true);
             StartCoroutine(DelayInput(0.3f));
         }
         if (Input.GetKey("d") && Slotx < 7 && enput == false) //d
         {
+            PJ[Slot].PJ.SetActive(false);
             rectTransform.anchoredPosition = new Vector2(rectTransform.anchoredPosition.x + 200f, rectTransform.anchoredPosition.y);
             Slotx += 1;
+            Slot += 1;
+            PJ[Slot].PJ.SetActive(true);
             StartCoroutine(DelayInput(0.3f));
         }
         if (Input.GetKey("a") && Slotx > 0 && enput == false) //a
         {
+            PJ[Slot].PJ.SetActive(false);
             rectTransform.anchoredPosition = new Vector2(rectTransform.anchoredPosition.x - 200f, rectTransform.anchoredPosition.y);
             Slotx -= 1;
+            Slot -= 1;
+            PJ[Slot].PJ.SetActive(true);
             StartCoroutine(DelayInput(0.3f));
         }
 
@@ -104,11 +127,20 @@ public class FondoSelector1 : MonoBehaviour
                 image.sprite = fondo4;
             }
         }
+        if (Input.GetKey("q"))
+        {
+            SceneManager.LoadScene("TestFight 1");
+        }
     }
     IEnumerator DelayInput(float tiempo)
     {
         enput = true;
         yield return new WaitForSeconds(tiempo);
         enput = false;
+    }
+    void Coco()
+    {
+        Slot += 1;
+        PJ[Slot].PJ.SetActive(true);
     }
 }

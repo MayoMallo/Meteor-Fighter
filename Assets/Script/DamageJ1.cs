@@ -14,11 +14,14 @@ public class DamageJ1 : MonoBehaviour
     public GameObject P2;
     public GameObject P1;
     public GameObject BF;
-    public Image BFU;
+    public Animator BFU;
     private GameObject obj2;
     public bool Shoot;
     private Player1 Player1;
     private Player2 Player2;
+    private Vector3 Startu;
+    private Animator BFAnimator;
+    private bool CanDoUlti = true;
     void Start()
     {
         P2 = GameObject.Find("Player2");
@@ -26,14 +29,24 @@ public class DamageJ1 : MonoBehaviour
         Player1 = P1.GetComponent<Player1>();
         Player2 = P2.GetComponent<Player2>();
         BF = GameObject.Find("BF");
+        BFAnimator = BF.GetComponent<Animator>();
         obj2 = GameObject.Find("BFU");
-        BFU = obj2.GetComponent<Image>();
+        BFU = obj2.GetComponent<Animator>();
+        Startu = new Vector3(100, 1000, 100);
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        P2 = GameObject.Find("Player2");
+        P1 = GameObject.Find("Player1");
+        Player1 = P1.GetComponent<Player1>();
+        Player2 = P2.GetComponent<Player2>();
+        BF = GameObject.Find("BF");
+        BFAnimator = BF.GetComponent<Animator>();
+        obj2 = GameObject.Find("BFU");
+        BFU = obj2.GetComponent<Animator>();
+        Startu = new Vector3(100, 1000, 100);
     }
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -52,9 +65,9 @@ public class DamageJ1 : MonoBehaviour
                     Player1.VidaJ1 -= 10;
                     Player2.EnergiaJ2 -= 10;
                     BF.transform.position = gameObject.transform.position;
-                    BF.SetActive(true);
-                    BFU.gameObject.SetActive(true);
-                    Invoke("BlackFlash", 1f);
+                    BFAnimator.SetBool("BK", true);
+                    BFU.SetBool("BKU", true);
+                    Invoke("BlackFlash", 0.5f);
                 }
                 else
                 {
@@ -72,14 +85,16 @@ public class DamageJ1 : MonoBehaviour
                 if (Shoot == true && Input.GetKey("l") && Player2.EnergiaJ2 >= 10)
                 {
                     Player2.EnergiaJ2 -= 10;
+                    CanDoUlti = false;
                     BF.transform.position = gameObject.transform.position;
-                    BF.SetActive(true);
-                    BFU.gameObject.SetActive(true);
-                    Invoke("BlackFlash", 1f);
+                    BFAnimator.SetBool("BK", true);
+                    BFU.SetBool("BKU", true);
+                    Invoke("BlackFlash", 0.5f);
                 }
-                else
+                if (Shoot == true && CanDoUlti == true)
                 {
                     Player1.Ulti = true;
+                    Player2.VidaJ2 -= 20f;
                     Player2.Move = false;
                     Invoke("NoMoveUlti", Player1.UltiTime);
                 }
@@ -88,8 +103,10 @@ public class DamageJ1 : MonoBehaviour
     }
     void BlackFlash()
     {
-        BF.SetActive(false);
-        BFU.gameObject.SetActive(false);
+        BF.transform.position = Startu;
+        BFAnimator.SetBool("BK", false);
+        BFU.SetBool("BKU", false);
+        CanDoUlti = true;
     }
     void NoMoveUlti()
     {
