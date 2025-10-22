@@ -883,8 +883,8 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
+  m_CollisionDetection: 1
+  m_Constraints: 4
 --- !u!95 &3016855265320344306
 Animator:
   serializedVersion: 7
@@ -919,6 +919,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ecde3be3aaba7bc4e96effdb34d44c87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 12
   BarraDeVida: {fileID: 0}
   BarraEnergia: {fileID: 0}
   Pantalla: {fileID: 0}
@@ -927,9 +928,9 @@ MonoBehaviour:
   EnergiaJ1: 100
   Move: 1
   AttackTime: 2.5
-  SuperTime: 1.61
+  SuperTime: 1.58
   UltiShootTime: 0.85
-  UltiTime: 5.75
+  UltiTime: 5.73
   Ulti: 0
   StartPositionBullet: {x: 0, y: 0, z: 0}
   UltiName: Joker

@@ -12,6 +12,9 @@ public class Player2 : MonoBehaviour
     public GameObject obj;
     public GameObject obj2;
     public Animator Animator;
+    public float speed = 12;
+    public Rigidbody2D rb;
+    private Vector2 posicion;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -21,6 +24,8 @@ public class Player2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        rb = GetComponent<Rigidbody2D>();
+        posicion = rb.position;
         obj = GameObject.Find("BarraDeVidaJ2");
         if (obj != null) { BarraDeVidaJ2 = obj.GetComponent<Image>(); }
         obj2 = GameObject.FindWithTag("BarraDeEnergiaJ2");
@@ -29,14 +34,17 @@ public class Player2 : MonoBehaviour
         BarraDeVidaJ2.fillAmount = VidaJ2 / 100;
         BarraEnergiaJ2.fillAmount = EnergiaJ2 / 100;
 
-        if (Input.GetKey("left") || Input.GetKey("right"))
+        if (Input.GetKey("left") && Move == true|| Input.GetKey("right") && Move == true)
         {
             Animator.SetBool("Walk", true);
             if (Input.GetKey("right"))
             {
-                gameObject.transform.position = new Vector3(gameObject.transform.position.x + 0.25f, gameObject.transform.position.y, gameObject.transform.position.z);
+                gameObject.transform.position += Vector3.right * speed * Time.deltaTime;
             }
-            else {gameObject.transform.position = new Vector3(gameObject.transform.position.x - 0.25f, gameObject.transform.position.y, gameObject.transform.position.z);}
+            if (Input.GetKey("left"))
+            {
+                gameObject.transform.position += Vector3.left * speed * Time.deltaTime;
+            }
         }
         else { Animator.SetBool("Walk", false); }
     }

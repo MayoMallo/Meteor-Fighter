@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class Player1 : MonoBehaviour
 {
+    public float speed = 12f;
     private bool falta;
     public static Player1 instancia;
     public Image BarraDeVida;
@@ -32,6 +33,9 @@ public class Player1 : MonoBehaviour
     public GameObject obj3;
     public GameObject Player;
     private bool ShootSi;
+    private Rigidbody2D rb;
+    private Vector2 posicion;
+    private float speedbullet = 24f;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
@@ -40,7 +44,6 @@ public class Player1 : MonoBehaviour
     }
     void Start()
     {
-
     }
 
     // Update is called once per frame
@@ -48,6 +51,8 @@ public class Player1 : MonoBehaviour
     {
         StartPositionBullet = new Vector3(100, 1000, 100);
         Animator = GetComponent<Animator>();
+        rb = GetComponent<Rigidbody2D>();
+        posicion = rb.position;
         ShootObj = GameObject.Find("ShootJ1");
         obj = GameObject.Find("BarraDeVidaJ1");
         if (obj != null) { BarraDeVida = obj.GetComponent<Image>(); }
@@ -64,16 +69,19 @@ public class Player1 : MonoBehaviour
         if (Input.GetKey("a") && Move == true || Input.GetKey("d") && Move == true)
         {
             Animator.SetBool("Walk", true);
-            if (Input.GetKey("a"))
-            {
-                gameObject.transform.position = new Vector3(gameObject.transform.position.x - 0.25f, gameObject.transform.position.y, gameObject.transform.position.z);
-            }
             if (Input.GetKey("d"))
             {
-                gameObject.transform.position = new Vector3(gameObject.transform.position.x + 0.25f, gameObject.transform.position.y, gameObject.transform.position.z);
+                gameObject.transform.position += Vector3.right * speed * Time.deltaTime;
+            }
+            if (Input.GetKey("a"))
+            {
+                gameObject.transform.position += Vector3.left * speed * Time.deltaTime;
             }
         }
-        else { Animator.SetBool("Walk", false); }
+        else
+        {
+            Animator.SetBool("Walk", false);
+        }
         if (Input.GetKey("e") && Move == true && EnergiaJ1 >= 20)
         {
             Animator.SetBool("Super", true);
@@ -106,7 +114,7 @@ public class Player1 : MonoBehaviour
         }
         if (ShootSi == true)
         {
-            ShootObj.transform.position = new Vector3(ShootObj.transform.position.x + 0.4f, gameObject.transform.position.y, gameObject.transform.position.z);
+            ShootObj.transform.position += Vector3.right * speedbullet * Time.deltaTime;
         }
         if (ShootSi == false) { ShootObj.transform.position = StartPositionBullet; }
         if (gano == true && Input.GetKey("t") && Input.GetKey("e") && falta == false)

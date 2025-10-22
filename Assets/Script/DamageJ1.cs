@@ -10,7 +10,7 @@ public class DamageJ1 : MonoBehaviour
     public float NormalDamage;
     public float KnockBackDamage;
     public bool KnockBack;
-    public float knockbackForce = 8;
+    public float knockbackForce = 5;
     public GameObject P2;
     public GameObject P1;
     public GameObject BF;
@@ -57,6 +57,7 @@ public class DamageJ1 : MonoBehaviour
                 Player2.VidaJ2 -= NormalDamage;
                 Player1.EnergiaJ1 += NormalDamage;
                 Player2.Move = false;
+                Invoke("movetrue", 0.25f);
             }
             if (KnockBack == true)
             {
@@ -74,6 +75,7 @@ public class DamageJ1 : MonoBehaviour
                     Player2.VidaJ2 -= KnockBackDamage;
                     Player1.EnergiaJ1 += KnockBackDamage;
                     Player2.Move = false;
+                    Invoke("movetrue", 0.5f);
                     Rigidbody2D rb = other.GetComponent<Rigidbody2D>();
                     if (rb != null)
                     {
@@ -109,6 +111,10 @@ public class DamageJ1 : MonoBehaviour
         CanDoUlti = true;
     }
     void NoMoveUlti()
+    {
+        Player2.Move = true;
+    }
+    void movetrue()
     {
         Player2.Move = true;
     }

@@ -21,19 +21,26 @@ public class Retry : MonoBehaviour
         {
             opcion += 1;
             anim.SetBool("1", true);
-
         }
         if (Input.GetKey("w") && opcion == 2)
         {
             opcion -= 1;
             anim.SetBool("1", false);
-        } 
+        }
         if (opcion == 1 && Input.GetKey("f"))
         {
-            SceneManager.LoadScene("TestFight");
+            foreach (GameObject obj in FindObjectsOfType<GameObject>())
+            {
+                Destroy(obj);
+            }
+            SceneManager.LoadScene("1 Player");
         }
         if (opcion == 2 && Input.GetKey("f"))
         {
+            foreach (GameObject obj in FindObjectsOfType<GameObject>())
+            {
+                Destroy(obj);
+            }
             SceneManager.LoadScene("Menu");
         }
     }

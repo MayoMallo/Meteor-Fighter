@@ -19,6 +19,7 @@ public class RoundManager : MonoBehaviour
     public Vector3 originalPosition2;
     public int VictoriaJ1;
     public int VictoriaJ2;
+    private bool notget = true;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -49,47 +50,66 @@ public class RoundManager : MonoBehaviour
         J2 = GameObject.Find("Player2");
         Player1 = FindAnyObjectByType<Player1>();
         Player2 = FindAnyObjectByType<Player2>();
+        if (notget == true)
+        {
+            originalPosition = J1.transform.position;
+            originalPosition2 = J2.transform.position;
+            notget = false;
+        }
         if (Player1.VidaJ1 <= 0 && VictoriaJ2 == 0 && VictoriaJ1 == 0)
         {
+            J1.transform.position = originalPosition;
+            J2.transform.position = originalPosition2;
             pantalla.SetBool("Round2", true);
             Invoke("reset", 2f);
-            Invoke("NextRound", 2f);
-            Invoke("gano2", 2f);
+            Invoke("NextRound", 0.5f);
+            Invoke("gano2", 0.5f);
             Win1J2.SetActive(true);
         }
         if (Player2.VidaJ2 <= 0 && VictoriaJ1 == 0 && VictoriaJ2 == 0)
         {
+            J1.transform.position = originalPosition;
+            J2.transform.position = originalPosition2;
             pantalla.SetBool("Round2", true);
             Invoke("reset", 2f);
-            Invoke("NextRound", 2.01f);
-            Invoke("gano1", 2f);
+            Invoke("NextRound", 0.5f);
+            Invoke("gano1", 0.5f);
             Win1.SetActive(true);
         }
         if (Player1.VidaJ1 <= 0 && VictoriaJ2 == 0 && VictoriaJ1 >= 1)
         {
+            J1.transform.position = originalPosition;
+            J2.transform.position = originalPosition2;
             pantalla.SetBool("Round3", true);
             Invoke("reset", 2f);
-            Invoke("NextRound", 2f);
-            Invoke("gano2", 2f);
+            Invoke("NextRound", 0.5f);
+            Invoke("gano2", 0.5f);
             Win1J2.SetActive(true);
         }
+
         if (Player2.VidaJ2 <= 0 && VictoriaJ1 == 0 && VictoriaJ2 >= 1)
         {
+            J1.transform.position = originalPosition;
+            J2.transform.position = originalPosition2;
             pantalla.SetBool("Round3", true);
-            Invoke("gano1", 2f);
+            Invoke("gano1", 0.5f);
             Invoke("reset", 2f);
-            Invoke("NextRound", 2f);
+            Invoke("NextRound", 0.5f);
             Win1.SetActive(true);
         }
 
         if (Player2.VidaJ2 <=0 && VictoriaJ1 >= 1)
         {
+            J1.transform.position = originalPosition;
+            J2.transform.position = originalPosition2;
             Player1.gano = true;
             J2.SetActive(false);
             Win2.SetActive(true);
         }
         if (Player1.VidaJ1 <=0 && VictoriaJ2 >= 1)
         {
+            J1.transform.position = originalPosition;
+            J2.transform.position = originalPosition2;
             Player2.gano = true;
             J1.SetActive(false);
             win2J2.SetActive(true);
