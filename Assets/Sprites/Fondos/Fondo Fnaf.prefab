@@ -681,6 +681,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0af6d690d7ecc4feb1504cfcfe101a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  J1: {fileID: 0}
+  J2: {fileID: 0}
+  Position1: {fileID: 0}
+  Position2: {fileID: 0}
+  Camara: {fileID: 0}
+  CamaraLocation: {x: 0, y: 0, z: 0}
+  CamaraObj: {fileID: 0}
+  Location: {x: 0, y: 0, z: 0}
+  Xmin: -8.3
+  Xmax: 8.6
 --- !u!1 &8508801582032246500
 GameObject:
   m_ObjectHideFlags: 0
@@ -700,7 +710,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &7680319840152909252
 RectTransform:
   m_ObjectHideFlags: 0

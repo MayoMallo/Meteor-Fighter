@@ -84,8 +84,8 @@ public class Player1 : MonoBehaviour
         }
         if (Input.GetKey("e") && Move == true && EnergiaJ1 >= 20)
         {
-            Animator.SetBool("Super", true);
             Move = false;
+            Animator.SetBool("Super", true);
             EnergiaJ1 -= 20;
             Invoke("Super", SuperTime);
         }
@@ -167,7 +167,6 @@ public class Player1 : MonoBehaviour
         {
             Pantalla.SetBool(WinName, false);
         }
-        
     }
     void Fata()
     {

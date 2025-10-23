@@ -66,7 +66,7 @@ public class FondoSelector1 : MonoBehaviour
             PJ[Slot].PJ.SetActive(true);
             StartCoroutine(DelayInput(0.3f));
         }
-        if (Input.GetKey("d") && Slotx < 6 && enput == false) //d
+        if (Input.GetKey("d") && Slotx < 5 && enput == false) //d
         {
             PJ[Slot].PJ.SetActive(false);
             rectTransform.anchoredPosition = new Vector2(rectTransform.anchoredPosition.x + 200f, rectTransform.anchoredPosition.y);

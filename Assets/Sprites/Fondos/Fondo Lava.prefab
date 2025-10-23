@@ -212,6 +212,14 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 10b3ff729c54edc78aa9829b4fe12d63, type: 3}
+    - target: {fileID: 9089014125624167684, guid: bc14974ed6ff9f3439b2907881150b4c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.33256873
+      objectReference: {fileID: 0}
+    - target: {fileID: 9089014125624167684, guid: bc14974ed6ff9f3439b2907881150b4c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.18428
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5485683032244408339, guid: bc14974ed6ff9f3439b2907881150b4c, type: 3}
     m_RemovedGameObjects:
@@ -250,3 +258,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2755752c3f328f0697b93b28e9cd372, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  J1: {fileID: 0}
+  J2: {fileID: 0}
+  Position1: {fileID: 0}
+  Position2: {fileID: 0}
+  Camara: {fileID: 0}
+  CamaraLocation: {x: 0, y: 0, z: 0}
+  CamaraObj: {fileID: 0}
+  Location: {x: 0, y: 0, z: 0}
+  Xmin: -15.4
+  Xmax: 16.3

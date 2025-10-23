@@ -4989,6 +4989,8 @@ MonoBehaviour:
   BF: {fileID: 0}
   BFU: {fileID: 0}
   Shoot: 1
+  Blood: {fileID: 0}
+  BloodParticle: {fileID: 0}
 --- !u!1 &2904819117878628641
 GameObject:
   m_ObjectHideFlags: 0
@@ -5089,6 +5091,8 @@ MonoBehaviour:
   BF: {fileID: 0}
   BFU: {fileID: 0}
   Shoot: 0
+  Blood: {fileID: 0}
+  BloodParticle: {fileID: 0}
 --- !u!1 &3103099474450346241
 GameObject:
   m_ObjectHideFlags: 0
@@ -5189,6 +5193,8 @@ MonoBehaviour:
   BF: {fileID: 0}
   BFU: {fileID: 0}
   Shoot: 0
+  Blood: {fileID: 0}
+  BloodParticle: {fileID: 0}
 --- !u!1 &3774532974418320861
 GameObject:
   m_ObjectHideFlags: 0
@@ -5419,6 +5425,8 @@ MonoBehaviour:
   BF: {fileID: 0}
   BFU: {fileID: 0}
   Shoot: 0
+  Blood: {fileID: 0}
+  BloodParticle: {fileID: 0}
 --- !u!1 &6187897205571608369
 GameObject:
   m_ObjectHideFlags: 0
@@ -6169,3 +6177,5 @@ MonoBehaviour:
   BF: {fileID: 0}
   BFU: {fileID: 0}
   Shoot: 0
+  Blood: {fileID: 0}
+  BloodParticle: {fileID: 0}

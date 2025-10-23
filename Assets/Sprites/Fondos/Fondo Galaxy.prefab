@@ -438,6 +438,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e25db85c2b995a19b408392cdb8d2de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  J1: {fileID: 0}
+  J2: {fileID: 0}
+  Position1: {fileID: 0}
+  Position2: {fileID: 0}
+  Camara: {fileID: 0}
+  CamaraLocation: {x: 0, y: 0, z: 0}
+  CamaraObj: {fileID: 0}
+  Location: {x: 0, y: 0, z: 0}
+  Xmin: -11
+  Xmax: 11
 --- !u!1 &4461326026422190419 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5546221067500667209, guid: 36234184367bfe9cdaa07f33ce2b4d4c, type: 3}
