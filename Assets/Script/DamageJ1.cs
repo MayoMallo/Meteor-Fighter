@@ -22,6 +22,9 @@ public class DamageJ1 : MonoBehaviour
     private Vector3 Startu;
     private Animator BFAnimator;
     private bool CanDoUlti = true;
+    private SpriteRenderer spp;
+    public GameObject Blood;
+    public ParticleSystem BloodParticle;
     void Start()
     {
         P2 = GameObject.Find("Player2");
@@ -40,6 +43,8 @@ public class DamageJ1 : MonoBehaviour
     {
         P2 = GameObject.Find("Player2");
         P1 = GameObject.Find("Player1");
+        Blood = GameObject.Find("Blood");
+        BloodParticle = Blood.GetComponent<ParticleSystem>();
         Player1 = P1.GetComponent<Player1>();
         Player2 = P2.GetComponent<Player2>();
         BF = GameObject.Find("BF");
@@ -54,6 +59,15 @@ public class DamageJ1 : MonoBehaviour
         {
             if (KnockBack == false)
             {
+                SpriteRenderer sp = other.GetComponent<SpriteRenderer>();
+                if (sp != null)
+                    {
+                        sp.color = Color.red;
+                        spp = sp;
+                        Invoke("SpriteReset", 0.25f);
+                    }
+                Blood.transform.position = P2.transform.position;
+                BloodParticle.Play();
                 Player2.VidaJ2 -= NormalDamage;
                 Player1.EnergiaJ1 += NormalDamage;
                 Player2.Move = false;
@@ -77,12 +91,22 @@ public class DamageJ1 : MonoBehaviour
                     Player2.Move = false;
                     Invoke("movetrue", 0.5f);
                     Rigidbody2D rb = other.GetComponent<Rigidbody2D>();
+                    SpriteRenderer sp = other.GetComponent<SpriteRenderer>();
                     if (rb != null)
                     {
                         Vector2 knockbackDirection = new Vector2(1, 1).normalized;
                         rb.linearVelocity = Vector2.zero;
                         rb.AddForce(knockbackDirection * knockbackForce, ForceMode2D.Impulse);
                     }
+                    if (sp != null)
+                    {
+                        sp.color = Color.red;
+                        spp = sp;
+                        Invoke("SpriteReset", 0.25f);
+                        Blood.transform.position = P2.transform.position;
+                        BloodParticle.Play();
+                    }
+                    
                 }
                 if (Shoot == true && Input.GetKey("l") && Player2.EnergiaJ2 >= 10)
                 {
@@ -117,5 +141,10 @@ public class DamageJ1 : MonoBehaviour
     void movetrue()
     {
         Player2.Move = true;
+    }
+    void SpriteReset()
+    {
+        BloodParticle.Stop();
+        spp.color = Color.white;
     }
 }
