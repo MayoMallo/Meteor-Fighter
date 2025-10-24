@@ -122,10 +122,10 @@ TextureImporter:
       name: Walk_0
       rect:
         serializedVersion: 2
-        x: 16
-        y: 28
-        width: 48
-        height: 44
+        x: 3
+        y: 10
+        width: 80
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,10 +144,10 @@ TextureImporter:
       name: Walk_1
       rect:
         serializedVersion: 2
-        x: 216
-        y: 28
-        width: 48
-        height: 44
+        x: 203
+        y: 10
+        width: 80
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,10 +166,10 @@ TextureImporter:
       name: Walk_2
       rect:
         serializedVersion: 2
-        x: 416
-        y: 28
-        width: 48
-        height: 44
+        x: 403
+        y: 10
+        width: 80
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -188,7 +188,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: db76040bfeb5794438b6633f4c0cd948
     internalID: 0
     vertices: []
     indices: 

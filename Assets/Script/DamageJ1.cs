@@ -89,7 +89,7 @@ public class DamageJ1 : MonoBehaviour
                     Player2.VidaJ2 -= KnockBackDamage;
                     Player1.EnergiaJ1 += KnockBackDamage;
                     Player2.Move = false;
-                    Invoke("movetrue", 0.5f);
+                    if (Shoot == false){Invoke("movetrue", 0.5f);}
                     Rigidbody2D rb = other.GetComponent<Rigidbody2D>();
                     SpriteRenderer sp = other.GetComponent<SpriteRenderer>();
                     if (rb != null)

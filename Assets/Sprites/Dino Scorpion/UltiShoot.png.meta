@@ -108,7 +108,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 8192
+    maxTextureSize: 16384
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -152,12 +152,12 @@ TextureImporter:
       name: UltiShoot_0
       rect:
         serializedVersion: 2
-        x: 16
-        y: 28
-        width: 48
-        height: 44
+        x: 0
+        y: 450
+        width: 300
+        height: 150
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -174,12 +174,12 @@ TextureImporter:
       name: UltiShoot_1
       rect:
         serializedVersion: 2
-        x: 225
-        y: 28
-        width: 48
-        height: 44
+        x: 300
+        y: 450
+        width: 300
+        height: 150
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -196,12 +196,12 @@ TextureImporter:
       name: UltiShoot_2
       rect:
         serializedVersion: 2
-        x: 425
-        y: 28
-        width: 61
-        height: 44
+        x: 0
+        y: 300
+        width: 300
+        height: 150
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -218,12 +218,12 @@ TextureImporter:
       name: UltiShoot_3
       rect:
         serializedVersion: 2
-        x: 625
-        y: 28
-        width: 79
-        height: 44
+        x: 300
+        y: 300
+        width: 300
+        height: 150
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -240,12 +240,12 @@ TextureImporter:
       name: UltiShoot_4
       rect:
         serializedVersion: 2
-        x: 825
-        y: 28
-        width: 106
-        height: 44
+        x: 0
+        y: 150
+        width: 300
+        height: 150
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -262,12 +262,12 @@ TextureImporter:
       name: UltiShoot_5
       rect:
         serializedVersion: 2
-        x: 1025
-        y: 28
-        width: 134
-        height: 44
+        x: 300
+        y: 150
+        width: 300
+        height: 150
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -284,13 +284,13 @@ TextureImporter:
       name: UltiShoot_6
       rect:
         serializedVersion: 2
-        x: 1225
-        y: 28
-        width: 134
-        height: 44
+        x: 175
+        y: 0
+        width: 125
+        height: 150
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 124, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
@@ -306,12 +306,12 @@ TextureImporter:
       name: UltiShoot_7
       rect:
         serializedVersion: 2
-        x: 1425
-        y: 28
-        width: 134
-        height: 44
+        x: 300
+        y: 0
+        width: 300
+        height: 150
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -324,121 +324,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: UltiShoot_8
-      rect:
-        serializedVersion: 2
-        x: 1625
-        y: 28
-        width: 107
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2eef80cf8089de850800000000000000
-      internalID: 6407945009173692130
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UltiShoot_9
-      rect:
-        serializedVersion: 2
-        x: 1825
-        y: 28
-        width: 78
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 43aac5f91c09122b0800000000000000
-      internalID: -5611044499450189260
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UltiShoot_10
-      rect:
-        serializedVersion: 2
-        x: 2025
-        y: 28
-        width: 55
-        height: 47
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0bc93047a3c4e37b0800000000000000
-      internalID: -5242669102274470736
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UltiShoot_11
-      rect:
-        serializedVersion: 2
-        x: 2225
-        y: 28
-        width: 48
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 38248b10571fb98a0800000000000000
-      internalID: -6297174169105186173
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UltiShoot_12
-      rect:
-        serializedVersion: 2
-        x: 2416
-        y: 28
-        width: 48
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 845b408940eb7fff0800000000000000
-      internalID: -2324347850803896
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: e0b373055272f304494984703b9be52b
     internalID: 0
     vertices: []
     indices: 
@@ -450,17 +340,12 @@ TextureImporter:
     nameFileIdTable:
       UltiShoot_0: 1575093200857333579
       UltiShoot_1: -2600833338673533827
-      UltiShoot_10: -5242669102274470736
-      UltiShoot_11: -6297174169105186173
-      UltiShoot_12: -2324347850803896
       UltiShoot_2: -2971488039997058255
       UltiShoot_3: 4659944338333739054
       UltiShoot_4: -5819820119904418218
       UltiShoot_5: -8786096541850802202
       UltiShoot_6: 5839402785798355715
       UltiShoot_7: 4314805180877364616
-      UltiShoot_8: 6407945009173692130
-      UltiShoot_9: -5611044499450189260
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
