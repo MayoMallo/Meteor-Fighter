@@ -5,11 +5,11 @@ using UnityEngine.UI;
 using Unity.VisualScripting;
 using UnityEngine.SceneManagement;
 
-public class Player2 : MonoBehaviour
+public class CPU : MonoBehaviour
 {
     public float speed = 12f;
     private bool falta;
-    public static Player2 instancia;
+    public static CPU instancia;
     public Image BarraDeVida;
     public Image BarraEnergia;
     public Animator Pantalla;
@@ -32,13 +32,10 @@ public class Player2 : MonoBehaviour
     public GameObject obj2;
     public GameObject obj3;
     public GameObject Player;
-    public GameObject Objetive;
     private bool ShootSi;
     private Rigidbody2D rb;
     private Vector2 posicion;
     private float speedbullet = 24f;
-    public bool cpu;
-    public int AccionCpu;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
@@ -47,13 +44,11 @@ public class Player2 : MonoBehaviour
     }
     void Start()
     {
-        InvokeRepeating("CpuAc", 0f, 5f);
     }
 
     // Update is called once per frame
     void Update()
     {
-        Objetive = GameObject.Find("Player1");
         StartPositionBullet = new Vector3(100, 1000, 100);
         Animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
@@ -71,7 +66,7 @@ public class Player2 : MonoBehaviour
         { EnergiaJ2 = 100; }
         if (EnergiaJ2 <= 0)
         { EnergiaJ2 = 0; }
-        if (Input.GetKey("left") && Move == true && cpu == false || Input.GetKey("right") && Move == true && cpu == false)
+        if (Input.GetKey("left") && Move == true || Input.GetKey("right") && Move == true)
         {
             Animator.SetBool("Walk", true);
             if (Input.GetKey("right"))
@@ -87,64 +82,51 @@ public class Player2 : MonoBehaviour
         {
             Animator.SetBool("Walk", false);
         }
-        if (cpu == false)
+        if (Input.GetKey("i") && Move == true && EnergiaJ2 >= 20)
         {
-            if (Input.GetKey("i") && Move == true && EnergiaJ2 >= 20)
-            {
-                Move = false;
-                Animator.SetBool("Super", true);
-                EnergiaJ2 -= 20;
-                Invoke("Super", SuperTime);
-            }
-            if (Input.GetKey("o") && Move == true)
-            {
-                Animator.SetBool("Attack", true);
-                Move = false;
-                Invoke("Attack", AttackTime);
-            }
-            if (Input.GetKey("p") && Move == true && EnergiaJ2 >= 35)
-            {
-                ShootObj.transform.position = gameObject.transform.position;
-                Animator.SetBool("Shoot", true);
-                ShootSi = true;
-                Move = false;
-                EnergiaJ2 -= 35;
-                Invoke("Shoot", UltiShootTime);
-            }
-            if (Ulti == true)
-            {
-                ShootSi = false;
-                Move = false;
-                Pantalla.SetBool(UltiName, true);
-                Animator.SetBool("Shoot", false);
-                Invoke("Ultimate", UltiTime);
-            }
-            if (ShootSi == true)
-            {
-                ShootObj.transform.position += Vector3.left * speedbullet * Time.deltaTime;
-            }
-            if (ShootSi == false) { ShootObj.transform.position = StartPositionBullet; }
-            if (gano == true && Input.GetKey("p") && Input.GetKey("i") && falta == false)
-            {
-                falta = true;
-                Pantalla.SetBool(FatalityName, true);
-                Invoke("Fata", 1f);
-            }
-            if (gano == true)
-            {
-                Invoke("Win", 5f);
-                Invoke("Win2", 5.2f);
-            }
+            Move = false;
+            Animator.SetBool("Super", true);
+            EnergiaJ2 -= 20;
+            Invoke("Super", SuperTime);
         }
-        if (cpu == true)
+        if (Input.GetKey("o") && Move == true)
         {
-            if (AccionCpu == 0)
-            {
-                if (gameObject.transform.position.x > Objetive.transform.position.x + 6.5f && gameObject.transform.position.x < Objetive.transform.position.x + 9.5f)
-                {
-                    
-                }
-            }
+            Animator.SetBool("Attack", true);
+            Move = false;
+            Invoke("Attack", AttackTime);
+        }
+        if (Input.GetKey("p") && Move == true && EnergiaJ2 >= 35)
+        {
+            ShootObj.transform.position = gameObject.transform.position;
+            Animator.SetBool("Shoot", true);
+            ShootSi = true;
+            Move = false;
+            EnergiaJ2 -= 35;
+            Invoke("Shoot", UltiShootTime);
+        }
+        if (Ulti == true)
+        {
+            ShootSi = false;
+            Move = false;
+            Pantalla.SetBool(UltiName, true);
+            Animator.SetBool("Shoot", false);
+            Invoke("Ultimate", UltiTime);
+        }
+        if (ShootSi == true)
+        {
+            ShootObj.transform.position += Vector3.left * speedbullet * Time.deltaTime;
+        }
+        if (ShootSi == false) { ShootObj.transform.position = StartPositionBullet; }
+        if (gano == true && Input.GetKey("p") && Input.GetKey("i") && falta == false)
+        {
+            falta = true;
+            Pantalla.SetBool(FatalityName, true);
+            Invoke("Fata", 1f);
+        }
+        if (gano == true)
+        {
+            Invoke("Win", 5f);
+            Invoke("Win2", 5.2f);
         }
     }
     void Attack()
@@ -189,9 +171,5 @@ public class Player2 : MonoBehaviour
     void Fata()
     {
         Pantalla.SetBool(FatalityName, false);
-    }
-    void CpuAc()
-    {
-        AccionCpu = Random.Range(0, 4);
     }
 }

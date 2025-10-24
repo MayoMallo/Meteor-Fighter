@@ -1,0 +1,282 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4712717994753795502
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1270504279011559857, guid: 53f9e71183226d0a0b0baee55769616c, type: 3}
+      propertyPath: m_Name
+      value: ShootJ2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3380895712208446934, guid: 53f9e71183226d0a0b0baee55769616c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: -8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3380895712208446934, guid: 53f9e71183226d0a0b0baee55769616c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 3380895712208446934, guid: 53f9e71183226d0a0b0baee55769616c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.71
+      objectReference: {fileID: 0}
+    - target: {fileID: 3380895712208446934, guid: 53f9e71183226d0a0b0baee55769616c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.3280225
+      objectReference: {fileID: 0}
+    - target: {fileID: 3380895712208446934, guid: 53f9e71183226d0a0b0baee55769616c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3380895712208446934, guid: 53f9e71183226d0a0b0baee55769616c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3380895712208446934, guid: 53f9e71183226d0a0b0baee55769616c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3380895712208446934, guid: 53f9e71183226d0a0b0baee55769616c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3380895712208446934, guid: 53f9e71183226d0a0b0baee55769616c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3380895712208446934, guid: 53f9e71183226d0a0b0baee55769616c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3380895712208446934, guid: 53f9e71183226d0a0b0baee55769616c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4332263941204568607, guid: 53f9e71183226d0a0b0baee55769616c, type: 3}
+      propertyPath: KnockBackDamage
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8734083533870864004, guid: 53f9e71183226d0a0b0baee55769616c, type: 3}
+      propertyPath: m_Name
+      value: Player2 Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 8734083533870864004, guid: 53f9e71183226d0a0b0baee55769616c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8734083533870864004, guid: 53f9e71183226d0a0b0baee55769616c, type: 3}
+      propertyPath: m_TagString
+      value: Player2
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 3806456998981550506, guid: 53f9e71183226d0a0b0baee55769616c, type: 3}
+    - {fileID: 1097647292645482993, guid: 53f9e71183226d0a0b0baee55769616c, type: 3}
+    - {fileID: 2216150845455898146, guid: 53f9e71183226d0a0b0baee55769616c, type: 3}
+    - {fileID: 3417034098194944495, guid: 53f9e71183226d0a0b0baee55769616c, type: 3}
+    - {fileID: 4332263941204568607, guid: 53f9e71183226d0a0b0baee55769616c, type: 3}
+    - {fileID: 6213799690967260288, guid: 53f9e71183226d0a0b0baee55769616c, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8734083533870864004, guid: 53f9e71183226d0a0b0baee55769616c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1086274361468995731}
+    - targetCorrespondingSourceObject: {fileID: 1270504279011559857, guid: 53f9e71183226d0a0b0baee55769616c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8651268245422718591}
+    - targetCorrespondingSourceObject: {fileID: 7495003172521669867, guid: 53f9e71183226d0a0b0baee55769616c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5740911195765765806}
+    - targetCorrespondingSourceObject: {fileID: 4000971446668145793, guid: 53f9e71183226d0a0b0baee55769616c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 769381902523476251}
+    - targetCorrespondingSourceObject: {fileID: 5356120501878116909, guid: 53f9e71183226d0a0b0baee55769616c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8822610459385365634}
+    - targetCorrespondingSourceObject: {fileID: 3808320469771850913, guid: 53f9e71183226d0a0b0baee55769616c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3886766368588384800}
+  m_SourcePrefab: {fileID: 100100000, guid: 53f9e71183226d0a0b0baee55769616c, type: 3}
+--- !u!1 &806763615561840515 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5356120501878116909, guid: 53f9e71183226d0a0b0baee55769616c, type: 3}
+  m_PrefabInstance: {fileID: 4712717994753795502}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8822610459385365634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 806763615561840515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32c03560d50f6af60b46023342ade127, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NormalDamage: 4
+  KnockBackDamage: 0
+  KnockBack: 0
+  knockbackForce: 8
+  P2: {fileID: 0}
+  P1: {fileID: 0}
+  BF: {fileID: 0}
+  BFU: {fileID: 0}
+  Shoot: 0
+  Blood: {fileID: 0}
+  BloodParticle: {fileID: 0}
+--- !u!1 &2982906467531641157 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7495003172521669867, guid: 53f9e71183226d0a0b0baee55769616c, type: 3}
+  m_PrefabInstance: {fileID: 4712717994753795502}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5740911195765765806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2982906467531641157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32c03560d50f6af60b46023342ade127, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NormalDamage: 3
+  KnockBackDamage: 0
+  KnockBack: 0
+  knockbackForce: 8
+  P2: {fileID: 0}
+  P1: {fileID: 0}
+  BF: {fileID: 0}
+  BFU: {fileID: 0}
+  Shoot: 0
+  Blood: {fileID: 0}
+  BloodParticle: {fileID: 0}
+--- !u!1 &4058661077180887850 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8734083533870864004, guid: 53f9e71183226d0a0b0baee55769616c, type: 3}
+  m_PrefabInstance: {fileID: 4712717994753795502}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1086274361468995731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4058661077180887850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd274a959854b79f2ac1b7f3c3abf7dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 12
+  BarraDeVida: {fileID: 0}
+  BarraEnergia: {fileID: 0}
+  Pantalla: {fileID: 0}
+  ShootObj: {fileID: 0}
+  VidaJ2: 100
+  EnergiaJ2: 100
+  Move: 1
+  AttackTime: 2.2
+  SuperTime: 2.6
+  UltiShootTime: 0.85
+  UltiTime: 7.2
+  Ulti: 0
+  StartPositionBullet: {x: 0, y: 0, z: 0}
+  UltiName: Freddy
+  FatalityName: FaltaJoker
+  WinName: WinJoker
+  gano: 0
+  obj: {fileID: 0}
+  obj2: {fileID: 0}
+  obj3: {fileID: 0}
+  Player: {fileID: 0}
+--- !u!1 &5820705590367562783 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1270504279011559857, guid: 53f9e71183226d0a0b0baee55769616c, type: 3}
+  m_PrefabInstance: {fileID: 4712717994753795502}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8651268245422718591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5820705590367562783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32c03560d50f6af60b46023342ade127, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NormalDamage: 0
+  KnockBackDamage: 0
+  KnockBack: 1
+  knockbackForce: 8
+  P2: {fileID: 0}
+  P1: {fileID: 0}
+  BF: {fileID: 0}
+  BFU: {fileID: 0}
+  Shoot: 1
+  Blood: {fileID: 0}
+  BloodParticle: {fileID: 0}
+--- !u!1 &8484552201295737103 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3808320469771850913, guid: 53f9e71183226d0a0b0baee55769616c, type: 3}
+  m_PrefabInstance: {fileID: 4712717994753795502}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3886766368588384800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8484552201295737103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32c03560d50f6af60b46023342ade127, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NormalDamage: 2
+  KnockBackDamage: 6
+  KnockBack: 1
+  knockbackForce: 5
+  P2: {fileID: 0}
+  P1: {fileID: 0}
+  BF: {fileID: 0}
+  BFU: {fileID: 0}
+  Shoot: 0
+  Blood: {fileID: 0}
+  BloodParticle: {fileID: 0}
+--- !u!1 &8566055781672587567 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4000971446668145793, guid: 53f9e71183226d0a0b0baee55769616c, type: 3}
+  m_PrefabInstance: {fileID: 4712717994753795502}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &769381902523476251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8566055781672587567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32c03560d50f6af60b46023342ade127, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NormalDamage: 0
+  KnockBackDamage: 4
+  KnockBack: 1
+  knockbackForce: 8
+  P2: {fileID: 0}
+  P1: {fileID: 0}
+  BF: {fileID: 0}
+  BFU: {fileID: 0}
+  Shoot: 0
+  Blood: {fileID: 0}
+  BloodParticle: {fileID: 0}

@@ -1,0 +1,150 @@
+using System.Collections;
+using System.Collections.Generic;
+using System.Reflection;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class DamageJ2 : MonoBehaviour
+{
+    private bool Shield;
+    public float NormalDamage;
+    public float KnockBackDamage;
+    public bool KnockBack;
+    public float knockbackForce = 5;
+    public GameObject P2;
+    public GameObject P1;
+    public GameObject BF;
+    public Animator BFU;
+    private GameObject obj2;
+    public bool Shoot;
+    private Player1 Player1;
+    private Player2 Player2;
+    private Vector3 Startu;
+    private Animator BFAnimator;
+    private bool CanDoUlti = true;
+    private SpriteRenderer spp;
+    public GameObject Blood;
+    public ParticleSystem BloodParticle;
+    void Start()
+    {
+        P2 = GameObject.Find("Player2");
+        P1 = GameObject.Find("Player1");
+        Player1 = P1.GetComponent<Player1>();
+        Player2 = P2.GetComponent<Player2>();
+        BF = GameObject.Find("BF");
+        BFAnimator = BF.GetComponent<Animator>();
+        obj2 = GameObject.Find("BFU");
+        BFU = obj2.GetComponent<Animator>();
+        Startu = new Vector3(100, 1000, 100);
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        P2 = GameObject.Find("Player2");
+        P1 = GameObject.Find("Player1");
+        Blood = GameObject.Find("Blood");
+        BloodParticle = Blood.GetComponent<ParticleSystem>();
+        Player1 = P1.GetComponent<Player1>();
+        Player2 = P2.GetComponent<Player2>();
+        BF = GameObject.Find("BF");
+        BFAnimator = BF.GetComponent<Animator>();
+        obj2 = GameObject.Find("BFU");
+        BFU = obj2.GetComponent<Animator>();
+        Startu = new Vector3(100, 1000, 100);
+    }
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Player1"))
+        {
+            if (KnockBack == false)
+            {
+                SpriteRenderer sp = other.GetComponent<SpriteRenderer>();
+                if (sp != null)
+                    {
+                        sp.color = Color.red;
+                        spp = sp;
+                        Invoke("SpriteReset", 0.25f);
+                    }
+                Blood.transform.position = P2.transform.position;
+                BloodParticle.Play();
+                Player1.VidaJ1 -= NormalDamage;
+                Player2.EnergiaJ2 += NormalDamage;
+                Player1.Move = false;
+                Invoke("movetrue", 0.25f);
+            }
+            if (KnockBack == true)
+            {
+                if (Input.GetKey("f") && Player1.EnergiaJ1 >= 10)
+                {
+                    Player2.VidaJ2 -= 10;
+                    Player1.EnergiaJ1 -= 10;
+                    BF.transform.position = gameObject.transform.position;
+                    BFAnimator.SetBool("BK", true);
+                    BFU.SetBool("BKU", true);
+                    Invoke("BlackFlash", 0.5f);
+                }
+                else
+                {
+                    Player1.VidaJ1 -= KnockBackDamage;
+                    Player2.EnergiaJ2 += KnockBackDamage;
+                    Player1.Move = false;
+                    if (Shoot == false){Invoke("movetrue", 0.5f);}
+                    Rigidbody2D rb = other.GetComponent<Rigidbody2D>();
+                    SpriteRenderer sp = other.GetComponent<SpriteRenderer>();
+                    if (rb != null)
+                    {
+                        Vector2 knockbackDirection = new Vector2(-1, 1).normalized;
+                        rb.linearVelocity = Vector2.zero;
+                        rb.AddForce(knockbackDirection * knockbackForce, ForceMode2D.Impulse);
+                    }
+                    if (sp != null)
+                    {
+                        sp.color = Color.red;
+                        spp = sp;
+                        Invoke("SpriteReset", 0.25f);
+                        Blood.transform.position = P2.transform.position;
+                        BloodParticle.Play();
+                    }
+                    
+                }
+                if (Shoot == true && Input.GetKey("f") && Player1.EnergiaJ1 >= 10)
+                {
+                    Player1.EnergiaJ1 -= 10;
+                    CanDoUlti = false;
+                    BF.transform.position = gameObject.transform.position;
+                    BFAnimator.SetBool("BK", true);
+                    BFU.SetBool("BKU", true);
+                    Invoke("BlackFlash", 0.5f);
+                }
+                if (Shoot == true && CanDoUlti == true)
+                {
+                    Player2.Ulti = true;
+                    Player1.VidaJ1 -= 20f;
+                    Player1.Move = false;
+                    Invoke("NoMoveUlti", Player1.UltiTime);
+                }
+            }
+        }
+    }
+    void BlackFlash()
+    {
+        BF.transform.position = Startu;
+        BFAnimator.SetBool("BK", false);
+        BFU.SetBool("BKU", false);
+        CanDoUlti = true;
+    }
+    void NoMoveUlti()
+    {
+        Player1.Move = true;
+    }
+    void movetrue()
+    {
+        Player1.Move = true;
+    }
+    void SpriteReset()
+    {
+        BloodParticle.Stop();
+        spp.color = Color.white;
+    }
+}
