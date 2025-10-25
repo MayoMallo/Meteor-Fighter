@@ -89,7 +89,9 @@ public class DamageJ1 : MonoBehaviour
                     Player2.VidaJ2 -= KnockBackDamage;
                     Player1.EnergiaJ1 += KnockBackDamage;
                     Player2.Move = false;
-                    if (Shoot == false){Invoke("movetrue", 0.5f);}
+                    if (Shoot == false){
+                        Invoke("movefalse", 0.25f);
+                        Invoke("movetrue", 0.5f);}
                     Rigidbody2D rb = other.GetComponent<Rigidbody2D>();
                     SpriteRenderer sp = other.GetComponent<SpriteRenderer>();
                     if (rb != null)
@@ -142,6 +144,7 @@ public class DamageJ1 : MonoBehaviour
     {
         Player2.Move = true;
     }
+    void movefalse() { Player2.Move = false; }
     void SpriteReset()
     {
         BloodParticle.Stop();

@@ -41,5 +41,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TestFight 1.unity
     guid: 22ac6dc15d9e7180c8c7d57d3f39e6e0
+  - enabled: 1
+    path: Assets/Scenes/Selector 1.unity
+    guid: b9e7cc5dc25c8cf4cb5a4938bb416140
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

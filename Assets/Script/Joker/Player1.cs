@@ -36,6 +36,8 @@ public class Player1 : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 posicion;
     private float speedbullet = 24f;
+    public GameObject Objetive;
+    public Player2 Objetivee;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
@@ -49,6 +51,8 @@ public class Player1 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Objetive = GameObject.Find("Player2");
+        Objetivee = Objetive.GetComponent<Player2>();
         StartPositionBullet = new Vector3(100, 1000, 100);
         Animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
@@ -132,12 +136,14 @@ public class Player1 : MonoBehaviour
     void Attack()
     {
         Animator.SetBool("Attack", false);
-        Move = true;
+        if(Objetivee.Ulti == false){
+        Move = true;}
     }
     void Super()
     {
         Animator.SetBool("Super", false);
-        Move = true;
+        if(Objetivee.Ulti == false){
+        Move = true;}
     }
     void Shoot()
     {
@@ -145,14 +151,16 @@ public class Player1 : MonoBehaviour
         {
             Animator.SetBool("Shoot", false);
             ShootSi = false;
-            Move = true;
+            if (Objetivee.Ulti == false){
+            Move = true;}
         }
         else { }
     }
     void Ultimate()
     {
         Ulti = false;
-        Move = true;
+        if(Objetivee.Ulti == false){
+        Move = true;}
         Pantalla.SetBool(UltiName, false);
     }
     void Win()

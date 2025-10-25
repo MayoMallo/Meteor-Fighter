@@ -33,6 +33,7 @@ public class Player2 : MonoBehaviour
     public GameObject obj3;
     public GameObject Player;
     public GameObject Objetive;
+    public Player1 Objetivee;
     private bool ShootSi;
     private Rigidbody2D rb;
     private Vector2 posicion;
@@ -54,6 +55,7 @@ public class Player2 : MonoBehaviour
     void Update()
     {
         Objetive = GameObject.Find("Player1");
+        Objetivee = Objetive.GetComponent<Player1>();
         StartPositionBullet = new Vector3(100, 1000, 100);
         Animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
@@ -136,26 +138,132 @@ public class Player2 : MonoBehaviour
                 Invoke("Win2", 5.2f);
             }
         }
-        if (cpu == true)
+        if (cpu == true && Move == true)
         {
             if (AccionCpu == 0)
             {
-                if (gameObject.transform.position.x > Objetive.transform.position.x + 6.5f && gameObject.transform.position.x < Objetive.transform.position.x + 9.5f)
+                if (gameObject.transform.position.x > Objetive.transform.position.x + 6.5f && gameObject.transform.position.x < Objetive.transform.position.x + 9.5f && Move == true && EnergiaJ2 >= 20f)
                 {
-                    
+                    Move = false;
+                    Animator.SetBool("Super", true);
+                    EnergiaJ2 -= 20;
+                    Invoke("Super", SuperTime);
+                    Invoke("CpuAc", SuperTime);
                 }
+                if (gameObject.transform.position.x < Objetive.transform.position.x + 6.5f && Move == true)
+                {
+                    Animator.SetBool("Walk", true);
+                    gameObject.transform.position += Vector3.right * speed * Time.deltaTime;
+                }
+                if (gameObject.transform.position.x > Objetive.transform.position.x + 9.5f && Move == true)
+                {
+                    Animator.SetBool("Walk", true);
+                    gameObject.transform.position += Vector3.left * speed * Time.deltaTime;
+                }
+                else { Animator.SetBool("Walk", false); }
+            }
+            if (AccionCpu == 1 && Move == true)
+            {
+                if (gameObject.transform.position.x < Objetive.transform.position.x + 5f && Move == true)
+                {
+                    Animator.SetBool("Attack", true);
+                    Move = false;
+                    Invoke("Attack", AttackTime);
+                    Invoke("CpuAc", AttackTime);
+                }
+                if (gameObject.transform.position.x > Objetive.transform.position.x + 5f && Move == true)
+                {
+                    Animator.SetBool("Walk", true);
+                    gameObject.transform.position += Vector3.left * speed * Time.deltaTime;
+                }
+                else { Animator.SetBool("Walk", false); }
+            }
+            if (AccionCpu == 2)
+            {
+                if (gameObject.transform.position.x > Objetive.transform.position.x + 9.5f && Move == true && EnergiaJ2 >= 35)
+                {
+                    Move = false;
+                    ShootObj.transform.position = gameObject.transform.position;
+                    Animator.SetBool("Shoot", true);
+                    ShootSi = true;
+                    Move = false;
+                    EnergiaJ2 -= 35;
+                    Invoke("Shoot", UltiShootTime);
+                    Invoke("CpuAc", UltiShootTime);
+                }
+                if (gameObject.transform.position.x < Objetive.transform.position.x + 9.5f && Move == true)
+                {
+                    Animator.SetBool("Walk", true);
+                    gameObject.transform.position += Vector3.right * speed * Time.deltaTime;
+                }
+                else { Animator.SetBool("Walk", false); }
+            }
+            if (AccionCpu == 3)
+            {
+                if (gameObject.transform.position.x > Objetive.transform.position.x + 9.5f && Move == true && EnergiaJ2 >= 35)
+                {
+                    ShootObj.transform.position = gameObject.transform.position;
+                    Animator.SetBool("Shoot", true);
+                    ShootSi = true;
+                    Move = false;
+                    EnergiaJ2 -= 35;
+                    Invoke("Shoot", UltiShootTime);
+                    Invoke("CpuAc", UltiShootTime);
+                }
+                if (gameObject.transform.position.x < Objetive.transform.position.x + 5f && Move == true)
+                {
+                    Animator.SetBool("Attack", true);
+                    Move = false;
+                    Invoke("Attack", AttackTime);
+                    Invoke("CpuAc", AttackTime);
+                }
+                if (gameObject.transform.position.x > Objetive.transform.position.x + 6.5f && gameObject.transform.position.x < Objetive.transform.position.x + 9.5f && Move == true && EnergiaJ2 >= 20f)
+                {
+                    Move = false;
+                    Animator.SetBool("Super", true);
+                    EnergiaJ2 -= 20;
+                    Invoke("Super", SuperTime);
+                    Invoke("CpuAc", SuperTime);
+                }
+            }
+            if (Ulti == true)
+            {
+                ShootSi = false;
+                Move = false;
+                Pantalla.SetBool(UltiName, true);
+                Animator.SetBool("Shoot", false);
+                Invoke("Ultimate", UltiTime);
+            }
+            if (ShootSi == true)
+            {
+                ShootObj.transform.position += Vector3.left * speedbullet * Time.deltaTime;
+            }
+            if (ShootSi == false) { ShootObj.transform.position = StartPositionBullet; }
+            if (gano == true && Input.GetKey("p") && Input.GetKey("i") && falta == false)
+            {
+                falta = true;
+                Pantalla.SetBool(FatalityName, true);
+                Invoke("Fata", 1f);
+            }
+            if (gano == true)
+            {
+                Invoke("Win", 5f);
+                Invoke("Win2", 5.2f);
             }
         }
     }
     void Attack()
-    {
-        Animator.SetBool("Attack", false);
-        Move = true;
+    {Animator.SetBool("Attack", false);
+        if (Objetivee.Ulti == false){
+            
+            Move = true;
+        }
     }
     void Super()
-    {
-        Animator.SetBool("Super", false);
-        Move = true;
+    {Animator.SetBool("Super", false);
+        if (Objetivee.Ulti == false){
+        
+        Move = true;}
     }
     void Shoot()
     {
@@ -163,15 +271,21 @@ public class Player2 : MonoBehaviour
         {
             Animator.SetBool("Shoot", false);
             ShootSi = false;
+            if (Objetivee.Ulti == false){
             Move = true;
         }
-        else { }
+            
+        }
+        
     }
     void Ultimate()
     {
         Ulti = false;
-        Move = true;
         Pantalla.SetBool(UltiName, false);
+        if (Objetivee.Ulti == false){
+        
+        Move = true;
+        }
     }
     void Win()
     {   if (falta == false)
@@ -192,6 +306,17 @@ public class Player2 : MonoBehaviour
     }
     void CpuAc()
     {
-        AccionCpu = Random.Range(0, 4);
+        if(EnergiaJ2 >= 35 && Move == true)
+        {
+            AccionCpu = Random.Range(0, 4);
+        }
+        if (EnergiaJ2 >= 20 && EnergiaJ2 < 35 && Move == true)
+        {
+            AccionCpu = Random.Range(0, 2);
+        }
+        if (EnergiaJ2 < 20 && Move == true)
+        {
+            AccionCpu = Random.Range(1, 2);
+        }
     }
 }

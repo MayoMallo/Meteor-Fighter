@@ -2316,7 +2316,7 @@ MonoBehaviour:
   fondo2: {fileID: 21300000, guid: 5d352522738bbb6899b296c8fde13879, type: 3}
   fondo3: {fileID: 21300000, guid: 10b3ff729c54edc78aa9829b4fe12d63, type: 3}
   fondo4: {fileID: -1928062976742435131, guid: 94a1a495de389b22aa0f7d6c123dde7c, type: 3}
-  fondo5: {fileID: -6017790199694276497, guid: 11392c516c2ad6403a7abccde89807b6, type: 3}
+  fondo5: {fileID: 21300000, guid: 11392c516c2ad6403a7abccde89807b6, type: 3}
   fondo6: {fileID: -1872728238, guid: a16e2d732ed915d9393e26fcd815085b, type: 3}
   fondo7: {fileID: 7482667652216324306, guid: b82d7ef9d8c2b8fc19986d9e05693b30, type: 3}
   fondo8: {fileID: 7482667652216324306, guid: b82d7ef9d8c2b8fc19986d9e05693b30, type: 3}
